@@ -1,0 +1,2722 @@
+[
+  {
+    "employee": [
+      {
+        "id": "5e8297da-951a-4054-9ca3-4036b34069b2",
+        "position": "Manager",
+        "date_hired": "2023-08-31T13:11:01.256Z",
+        "date_terminated": "2023-08-31T15:49:49.808Z",
+        "status": "Active",
+        "created_at": "2023-08-31T13:20:58.059Z",
+        "updated_at": "2023-09-01T03:24:42.346Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "45afe0a8-d3d3-4b2b-8954-4fff0e207f3f",
+        "position": "Supervisor",
+        "date_hired": "2023-08-31T18:59:26.973Z",
+        "date_terminated": "2023-08-31T11:15:39.128Z",
+        "status": "Inactive",
+        "created_at": "2023-08-31T05:49:49.686Z",
+        "updated_at": "2023-09-01T04:05:42.343Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "51e613fe-bff9-47b0-862b-c392cead0291",
+        "position": "Assistant",
+        "date_hired": "2023-09-01T01:10:22.772Z",
+        "date_terminated": "2023-09-01T03:12:30.846Z",
+        "status": "On Leave",
+        "created_at": "2023-08-31T21:12:28.838Z",
+        "updated_at": "2023-08-31T11:52:53.925Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f94284d6-3f9d-4130-b89c-03b0278cee83",
+        "position": "Analyst",
+        "date_hired": "2023-09-01T01:23:49.821Z",
+        "date_terminated": "2023-08-31T05:49:05.261Z",
+        "status": "Retired",
+        "created_at": "2023-08-31T23:20:05.641Z",
+        "updated_at": "2023-09-01T01:28:37.975Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d173b187-8b17-4282-bc12-ed38dd80de27",
+        "position": "Coordinator",
+        "date_hired": "2023-09-01T01:39:28.185Z",
+        "date_terminated": "2023-08-31T12:06:32.355Z",
+        "status": "Terminated",
+        "created_at": "2023-08-31T21:17:51.554Z",
+        "updated_at": "2023-08-31T23:48:29.332Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer": [
+      {
+        "id": "a31f09fa-63d7-45b6-b922-700f6faf1365",
+        "account_number": "1234567890",
+        "account_type": "Savings",
+        "balance": 42428,
+        "credit_card_status": "Active",
+        "credit_card_limit": 5259,
+        "created_at": "2023-08-31T07:37:58.228Z",
+        "updated_at": "2023-08-31T14:47:27.318Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f13c2e7a-40ad-4c03-aadb-14b801ff4dfd",
+        "account_number": "9876543210",
+        "account_type": "Checking",
+        "balance": 59821,
+        "credit_card_status": "Inactive",
+        "credit_card_limit": 45679,
+        "created_at": "2023-09-01T03:38:40.770Z",
+        "updated_at": "2023-08-31T05:13:28.819Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "81f077f1-7461-4858-bc76-5a5b280ffe77",
+        "account_number": "2468135790",
+        "account_type": "Investment",
+        "balance": 21059,
+        "credit_card_status": "Blocked",
+        "credit_card_limit": 77481,
+        "created_at": "2023-08-31T23:51:50.320Z",
+        "updated_at": "2023-09-01T03:38:40.713Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7ef5d563-a16a-4538-8137-a0394a5f9ac8",
+        "account_number": "1357924680",
+        "account_type": "Credit",
+        "balance": 9796,
+        "credit_card_status": "Expired",
+        "credit_card_limit": 85744,
+        "created_at": "2023-08-31T11:39:35.251Z",
+        "updated_at": "2023-08-31T07:00:14.436Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f0d41949-d0ec-4749-9c44-69e7f8ec38c5",
+        "account_number": "8642097531",
+        "account_type": "Loan",
+        "balance": 60089,
+        "credit_card_status": "Lost",
+        "credit_card_limit": 70537,
+        "created_at": "2023-09-01T00:41:38.664Z",
+        "updated_at": "2023-08-31T13:14:58.707Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "transaction": [
+      {
+        "id": "3c5d75e5-35eb-40b4-bea7-9b14f39a4d6f",
+        "transaction_type": "Purchase",
+        "transaction_amount": 60329,
+        "transaction_date": "2023-08-31T23:53:22.286Z",
+        "transaction_status": "Successful",
+        "transaction_description": "Grocery Shopping",
+        "created_at": "2023-08-31T16:47:08.775Z",
+        "updated_at": "2023-08-31T06:44:10.907Z",
+        "customer_id": "a31f09fa-63d7-45b6-b922-700f6faf1365"
+      },
+      {
+        "id": "985c1a2e-50d8-4138-8c8d-b63cd72611e7",
+        "transaction_type": "Transfer",
+        "transaction_amount": 82760,
+        "transaction_date": "2023-08-31T07:02:19.322Z",
+        "transaction_status": "Failed",
+        "transaction_description": "Rent Payment",
+        "created_at": "2023-08-31T14:59:57.261Z",
+        "updated_at": "2023-08-31T13:27:24.997Z",
+        "customer_id": "81f077f1-7461-4858-bc76-5a5b280ffe77"
+      },
+      {
+        "id": "9adbb17d-83e8-4e4a-997c-88ecc1f5f06b",
+        "transaction_type": "Payment",
+        "transaction_amount": 73927,
+        "transaction_date": "2023-08-31T08:36:37.797Z",
+        "transaction_status": "Pending",
+        "transaction_description": "Salary Transfer",
+        "created_at": "2023-08-31T21:41:06.311Z",
+        "updated_at": "2023-08-31T10:27:09.674Z",
+        "customer_id": "81f077f1-7461-4858-bc76-5a5b280ffe77"
+      },
+      {
+        "id": "878e4464-ec05-4344-ae15-ff1caf44efc2",
+        "transaction_type": "Withdrawal",
+        "transaction_amount": 49206,
+        "transaction_date": "2023-08-31T15:22:36.415Z",
+        "transaction_status": "Cancelled",
+        "transaction_description": "Utility Bill Payment",
+        "created_at": "2023-08-31T06:31:33.029Z",
+        "updated_at": "2023-09-01T04:38:29.975Z",
+        "customer_id": "f13c2e7a-40ad-4c03-aadb-14b801ff4dfd"
+      },
+      {
+        "id": "52e785d4-c21c-4e9b-988f-cf51a1a567fb",
+        "transaction_type": "Deposit",
+        "transaction_amount": 6533,
+        "transaction_date": "2023-09-01T01:33:07.839Z",
+        "transaction_status": "Refunded",
+        "transaction_description": "Investment Withdrawal",
+        "created_at": "2023-08-31T06:49:49.031Z",
+        "updated_at": "2023-08-31T11:55:19.476Z",
+        "customer_id": "f0d41949-d0ec-4749-9c44-69e7f8ec38c5"
+      }
+    ],
+    "bill": [
+      {
+        "id": "1cebc1c1-3b39-4ce1-8a34-96c0e27ab09b",
+        "bill_type": "Electricity",
+        "bill_amount": 38056,
+        "due_date": "2023-08-31T14:58:46.277Z",
+        "payment_date": "2023-08-31T10:59:21.193Z",
+        "status": "Paid",
+        "created_at": "2023-08-31T10:08:08.817Z",
+        "updated_at": "2023-08-31T16:24:26.829Z",
+        "customer_id": "f13c2e7a-40ad-4c03-aadb-14b801ff4dfd"
+      },
+      {
+        "id": "c15d3207-11db-4af7-9253-3122f4af3c70",
+        "bill_type": "Water",
+        "bill_amount": 92578,
+        "due_date": "2023-08-31T18:25:36.643Z",
+        "payment_date": "2023-08-31T09:36:32.395Z",
+        "status": "Unpaid",
+        "created_at": "2023-08-31T17:01:09.875Z",
+        "updated_at": "2023-09-01T01:23:08.921Z",
+        "customer_id": "a31f09fa-63d7-45b6-b922-700f6faf1365"
+      },
+      {
+        "id": "c15135e0-076f-47d5-b79a-f3fbd5800bd3",
+        "bill_type": "Internet",
+        "bill_amount": 88152,
+        "due_date": "2023-08-31T12:13:38.159Z",
+        "payment_date": "2023-08-31T13:34:07.424Z",
+        "status": "Overdue",
+        "created_at": "2023-08-31T10:06:47.838Z",
+        "updated_at": "2023-09-01T04:57:51.377Z",
+        "customer_id": "a31f09fa-63d7-45b6-b922-700f6faf1365"
+      },
+      {
+        "id": "8fec4815-48bc-422d-aa09-b5c46476bf4d",
+        "bill_type": "Phone",
+        "bill_amount": 53078,
+        "due_date": "2023-09-01T04:55:25.328Z",
+        "payment_date": "2023-08-31T09:05:32.955Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-31T06:27:02.243Z",
+        "updated_at": "2023-08-31T17:23:35.298Z",
+        "customer_id": "81f077f1-7461-4858-bc76-5a5b280ffe77"
+      },
+      {
+        "id": "2a4d8e36-d77c-434e-ab4e-029b034ba0f2",
+        "bill_type": "Gas",
+        "bill_amount": 48673,
+        "due_date": "2023-08-31T21:29:41.240Z",
+        "payment_date": "2023-09-01T02:09:54.191Z",
+        "status": "Pending",
+        "created_at": "2023-08-31T23:54:41.445Z",
+        "updated_at": "2023-08-31T10:36:38.773Z",
+        "customer_id": "a31f09fa-63d7-45b6-b922-700f6faf1365"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "17e15d57-872e-439a-85b7-da07c3d5a1de",
+        "email": "Rashawn_Dickens1@yahoo.com",
+        "firstName": "Danyka",
+        "lastName": "Jast",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/45520029",
+        "tenantId": null
+      },
+      {
+        "reference": "92d9574b-3e1c-4d94-b533-3282c04cde57",
+        "email": "Theron_Weissnat@gmail.com",
+        "firstName": "Burdette",
+        "lastName": "Bailey",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1219.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "40d1c7b0-8a19-4d2c-9cb0-5894e15cf9e9",
+        "email": "Lula58@yahoo.com",
+        "firstName": "Ian",
+        "lastName": "Labadie",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/77290833",
+        "tenantId": null
+      },
+      {
+        "reference": "5089a859-fb6a-47b1-bacc-ef7d71d53560",
+        "email": "Clint0@hotmail.com",
+        "firstName": "Malinda",
+        "lastName": "Lemke",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1148.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "aa2e8c5e-8ab4-4dea-8e2e-bcca9099f7e8",
+        "email": "Gus_Wilkinson52@hotmail.com",
+        "firstName": "Marjorie",
+        "lastName": "Harvey",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/21895415",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "employee": [
+      {
+        "id": "ea02eafb-6334-41b3-a189-08a0e01ce2a4",
+        "position": "Manager",
+        "date_hired": "2023-08-31T08:49:40.527Z",
+        "date_terminated": "2023-08-31T10:44:18.759Z",
+        "status": "Active",
+        "created_at": "2023-09-01T00:47:48.009Z",
+        "updated_at": "2023-08-31T10:22:52.366Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2fd36cdf-2465-48ed-9f48-dd85816a2843",
+        "position": "Supervisor",
+        "date_hired": "2023-08-31T18:29:52.613Z",
+        "date_terminated": "2023-08-31T08:18:42.071Z",
+        "status": "Inactive",
+        "created_at": "2023-08-31T22:33:31.263Z",
+        "updated_at": "2023-09-01T02:12:03.883Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "47c1079b-b610-4bf1-bda4-2d28136838c0",
+        "position": "Assistant",
+        "date_hired": "2023-08-31T21:42:53.126Z",
+        "date_terminated": "2023-08-31T21:00:50.745Z",
+        "status": "On Leave",
+        "created_at": "2023-08-31T23:32:34.933Z",
+        "updated_at": "2023-08-31T10:36:21.915Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2683701c-fe3f-440b-8f98-b1fe5a990230",
+        "position": "Coordinator",
+        "date_hired": "2023-08-31T07:53:59.189Z",
+        "date_terminated": "2023-08-31T21:47:19.107Z",
+        "status": "Retired",
+        "created_at": "2023-08-31T17:04:17.290Z",
+        "updated_at": "2023-09-01T04:23:56.735Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9c5312f8-f0a2-4b9b-bac7-642b85909e14",
+        "position": "Analyst",
+        "date_hired": "2023-08-31T05:03:18.912Z",
+        "date_terminated": "2023-08-31T13:56:50.260Z",
+        "status": "Suspended",
+        "created_at": "2023-08-31T08:02:39.770Z",
+        "updated_at": "2023-08-31T22:08:11.133Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer": [
+      {
+        "id": "292e56b8-1291-45f4-ab56-c8b9e3a1498b",
+        "account_number": "1234567890",
+        "account_type": "Savings",
+        "balance": 55599,
+        "credit_card_status": "Active",
+        "credit_card_limit": 21906,
+        "created_at": "2023-08-31T17:57:57.424Z",
+        "updated_at": "2023-09-01T01:16:29.128Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aae2434b-625a-4983-9598-131ac68ba355",
+        "account_number": "0987654321",
+        "account_type": "Checking",
+        "balance": 56614,
+        "credit_card_status": "Inactive",
+        "credit_card_limit": 88386,
+        "created_at": "2023-08-31T17:51:12.431Z",
+        "updated_at": "2023-08-31T22:52:53.287Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0c0fddf4-286e-4b8e-84e0-3aa3ab607fcb",
+        "account_number": "9876543210",
+        "account_type": "Investment",
+        "balance": 9553,
+        "credit_card_status": "Blocked",
+        "credit_card_limit": 85352,
+        "created_at": "2023-08-31T07:49:26.044Z",
+        "updated_at": "2023-09-01T03:49:05.309Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f7c811b9-c545-4fa1-a46b-d783538ccaa2",
+        "account_number": "0123456789",
+        "account_type": "Credit",
+        "balance": 53016,
+        "credit_card_status": "Expired",
+        "credit_card_limit": 87971,
+        "created_at": "2023-08-31T07:02:38.733Z",
+        "updated_at": "2023-08-31T11:59:42.492Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a3e10a4b-112f-4082-beac-75bed9287961",
+        "account_number": "5432109876",
+        "account_type": "Loan",
+        "balance": 34340,
+        "credit_card_status": "Lost",
+        "credit_card_limit": 17302,
+        "created_at": "2023-09-01T03:19:21.225Z",
+        "updated_at": "2023-08-31T21:42:28.910Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "transaction": [
+      {
+        "id": "d4c4ff14-80fa-4c11-8ab5-5d2eef6c7b06",
+        "transaction_type": "Purchase",
+        "transaction_amount": 15089,
+        "transaction_date": "2023-08-31T20:08:51.979Z",
+        "transaction_status": "Pending",
+        "transaction_description": "Grocery shopping",
+        "created_at": "2023-08-31T11:52:02.424Z",
+        "updated_at": "2023-09-01T04:10:38.267Z",
+        "customer_id": "a3e10a4b-112f-4082-beac-75bed9287961"
+      },
+      {
+        "id": "4d6f658c-5754-47c9-9602-96c7daef0a5f",
+        "transaction_type": "Withdrawal",
+        "transaction_amount": 50214,
+        "transaction_date": "2023-09-01T01:10:01.158Z",
+        "transaction_status": "Completed",
+        "transaction_description": "Cash withdrawal",
+        "created_at": "2023-08-31T07:08:18.189Z",
+        "updated_at": "2023-08-31T18:41:04.228Z",
+        "customer_id": "292e56b8-1291-45f4-ab56-c8b9e3a1498b"
+      },
+      {
+        "id": "f2020594-2fcb-4d42-a0b1-6f803959442e",
+        "transaction_type": "Deposit",
+        "transaction_amount": 70126,
+        "transaction_date": "2023-09-01T02:05:55.045Z",
+        "transaction_status": "Failed",
+        "transaction_description": "Salary deposit",
+        "created_at": "2023-08-31T15:15:36.360Z",
+        "updated_at": "2023-08-31T05:40:49.826Z",
+        "customer_id": "a3e10a4b-112f-4082-beac-75bed9287961"
+      },
+      {
+        "id": "b7d54f26-095d-4a10-9831-a8c0dc0dea9a",
+        "transaction_type": "Transfer",
+        "transaction_amount": 71507,
+        "transaction_date": "2023-08-31T09:37:14.382Z",
+        "transaction_status": "Cancelled",
+        "transaction_description": "Fund transfer",
+        "created_at": "2023-08-31T10:44:03.966Z",
+        "updated_at": "2023-09-01T01:12:48.895Z",
+        "customer_id": "f7c811b9-c545-4fa1-a46b-d783538ccaa2"
+      },
+      {
+        "id": "4187cf46-0ea1-486a-8b14-eef2b834c2fa",
+        "transaction_type": "Payment",
+        "transaction_amount": 29450,
+        "transaction_date": "2023-08-31T07:15:16.712Z",
+        "transaction_status": "Refunded",
+        "transaction_description": "Utility bill payment",
+        "created_at": "2023-09-01T03:20:47.544Z",
+        "updated_at": "2023-08-31T18:45:15.415Z",
+        "customer_id": "292e56b8-1291-45f4-ab56-c8b9e3a1498b"
+      }
+    ],
+    "bill": [
+      {
+        "id": "f76b3870-e80e-4c06-8e1e-6f2327c99418",
+        "bill_type": "Electricity",
+        "bill_amount": 81776,
+        "due_date": "2023-08-31T17:54:36.643Z",
+        "payment_date": "2023-08-31T20:54:53.494Z",
+        "status": "Unpaid",
+        "created_at": "2023-08-31T08:57:44.778Z",
+        "updated_at": "2023-08-31T14:00:23.567Z",
+        "customer_id": "0c0fddf4-286e-4b8e-84e0-3aa3ab607fcb"
+      },
+      {
+        "id": "7e6da02c-f6c5-4e7e-a8b3-01353d12c29f",
+        "bill_type": "Water",
+        "bill_amount": 97848,
+        "due_date": "2023-09-01T02:26:36.614Z",
+        "payment_date": "2023-08-31T09:28:27.550Z",
+        "status": "Paid",
+        "created_at": "2023-08-31T23:02:08.041Z",
+        "updated_at": "2023-08-31T06:07:30.102Z",
+        "customer_id": "292e56b8-1291-45f4-ab56-c8b9e3a1498b"
+      },
+      {
+        "id": "3baa5fbc-83e1-48e5-82ee-657c8a208542",
+        "bill_type": "Internet",
+        "bill_amount": 52002,
+        "due_date": "2023-08-31T12:25:06.357Z",
+        "payment_date": "2023-08-31T21:31:42.140Z",
+        "status": "Overdue",
+        "created_at": "2023-08-31T22:46:30.244Z",
+        "updated_at": "2023-09-01T01:44:32.632Z",
+        "customer_id": "292e56b8-1291-45f4-ab56-c8b9e3a1498b"
+      },
+      {
+        "id": "63d411e9-d955-4ede-8066-1986d51a9869",
+        "bill_type": "Phone",
+        "bill_amount": 94237,
+        "due_date": "2023-09-01T04:43:47.933Z",
+        "payment_date": "2023-08-31T11:43:31.069Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-31T12:06:59.008Z",
+        "updated_at": "2023-08-31T07:00:39.685Z",
+        "customer_id": "a3e10a4b-112f-4082-beac-75bed9287961"
+      },
+      {
+        "id": "2f1356f6-a4c4-40dc-b2dc-15c5bc72f71f",
+        "bill_type": "Gas",
+        "bill_amount": 50946,
+        "due_date": "2023-08-31T12:56:32.671Z",
+        "payment_date": "2023-08-31T13:09:46.159Z",
+        "status": "Pending",
+        "created_at": "2023-09-01T04:14:12.607Z",
+        "updated_at": "2023-08-31T07:11:24.964Z",
+        "customer_id": "f7c811b9-c545-4fa1-a46b-d783538ccaa2"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "ab7a4a6a-d50b-4796-9fe1-2a6059c9c2a6",
+        "email": "Muriel7@hotmail.com",
+        "firstName": "Teresa",
+        "lastName": "Wisozk",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/89818026",
+        "tenantId": null
+      },
+      {
+        "reference": "748707fa-e176-4fae-b289-ad712dbb56f0",
+        "email": "Heather.Collins86@yahoo.com",
+        "firstName": "Jarod",
+        "lastName": "Tromp",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1226.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ce7225fb-4ff2-4985-a907-918668a8065c",
+        "email": "Oliver_Bogan@yahoo.com",
+        "firstName": "Greyson",
+        "lastName": "Moen",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1036.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "1e89cd7b-cdbd-4ecc-8a19-4b9564c6624f",
+        "email": "Mabel.Reichel15@gmail.com",
+        "firstName": "Laury",
+        "lastName": "Blanda",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/37355731",
+        "tenantId": null
+      },
+      {
+        "reference": "4d42c3cd-e1a5-41de-ae66-241c8080c17a",
+        "email": "Gerard_Hane@yahoo.com",
+        "firstName": "Jett",
+        "lastName": "Bode",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/86506388",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "employee": [
+      {
+        "id": "a162a178-330d-4408-951e-9a2a3b495f5e",
+        "position": "Manager",
+        "date_hired": "2023-08-31T07:55:22.542Z",
+        "date_terminated": "2023-09-01T01:49:07.423Z",
+        "status": "Active",
+        "created_at": "2023-08-31T07:24:44.527Z",
+        "updated_at": "2023-09-01T01:11:18.579Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "45eec8c6-e4a4-494a-b0fe-0a4d87672ad1",
+        "position": "Supervisor",
+        "date_hired": "2023-08-31T22:37:23.826Z",
+        "date_terminated": "2023-08-31T06:41:20.292Z",
+        "status": "Inactive",
+        "created_at": "2023-09-01T00:15:25.954Z",
+        "updated_at": "2023-08-31T21:54:17.731Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f4511f21-18ff-460f-8608-4227b60e44ea",
+        "position": "Assistant",
+        "date_hired": "2023-08-31T23:51:41.111Z",
+        "date_terminated": "2023-08-31T15:12:32.798Z",
+        "status": "On Leave",
+        "created_at": "2023-08-31T08:53:48.164Z",
+        "updated_at": "2023-08-31T12:46:28.793Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "464a8750-3add-464f-b33a-95b6e6b2fcbd",
+        "position": "Coordinator",
+        "date_hired": "2023-08-31T05:28:43.895Z",
+        "date_terminated": "2023-09-01T01:21:16.517Z",
+        "status": "Retired",
+        "created_at": "2023-08-31T20:49:17.751Z",
+        "updated_at": "2023-08-31T14:01:04.889Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "52f28e8c-18cb-4d7d-be10-8e84f9dd293c",
+        "position": "Analyst",
+        "date_hired": "2023-08-31T06:52:04.615Z",
+        "date_terminated": "2023-08-31T05:32:00.062Z",
+        "status": "Suspended",
+        "created_at": "2023-08-31T18:20:18.251Z",
+        "updated_at": "2023-08-31T15:14:51.365Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer": [
+      {
+        "id": "83185b6e-b08b-4640-a96d-1abd74f39193",
+        "account_number": "1234567890",
+        "account_type": "Savings",
+        "balance": 85112,
+        "credit_card_status": "Active",
+        "credit_card_limit": 12173,
+        "created_at": "2023-08-31T08:29:18.520Z",
+        "updated_at": "2023-08-31T13:54:07.789Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e3ba5883-7396-4efc-8d53-61df33c65072",
+        "account_number": "9876543210",
+        "account_type": "Checking",
+        "balance": 7629,
+        "credit_card_status": "Inactive",
+        "credit_card_limit": 9340,
+        "created_at": "2023-08-31T10:56:28.261Z",
+        "updated_at": "2023-08-31T21:06:22.217Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "14c74c15-76c1-4d23-a6f7-c12207c0e594",
+        "account_number": "5678901234",
+        "account_type": "Credit",
+        "balance": 67165,
+        "credit_card_status": "Blocked",
+        "credit_card_limit": 34209,
+        "created_at": "2023-08-31T12:46:18.555Z",
+        "updated_at": "2023-08-31T13:16:16.379Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fcba2d1f-3c24-4c8d-9dd0-5c8f42d7af6f",
+        "account_number": "4321098765",
+        "account_type": "Investment",
+        "balance": 6946,
+        "credit_card_status": "Expired",
+        "credit_card_limit": 78039,
+        "created_at": "2023-09-01T00:58:10.303Z",
+        "updated_at": "2023-08-31T12:44:25.079Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f5be0dfd-87db-4392-8115-a88982191a7b",
+        "account_number": "2468135790",
+        "account_type": "Loan",
+        "balance": 87239,
+        "credit_card_status": "Lost",
+        "credit_card_limit": 49577,
+        "created_at": "2023-08-31T16:12:07.444Z",
+        "updated_at": "2023-08-31T06:18:10.718Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "transaction": [
+      {
+        "id": "a3f199df-e69e-4372-832a-424ef0492705",
+        "transaction_type": "Purchase",
+        "transaction_amount": 29706,
+        "transaction_date": "2023-09-01T03:59:29.466Z",
+        "transaction_status": "Completed",
+        "transaction_description": "Grocery shopping",
+        "created_at": "2023-08-31T16:51:35.160Z",
+        "updated_at": "2023-08-31T14:18:45.986Z",
+        "customer_id": "fcba2d1f-3c24-4c8d-9dd0-5c8f42d7af6f"
+      },
+      {
+        "id": "417f5d57-33c6-4521-816b-3b8abc00dd28",
+        "transaction_type": "Deposit",
+        "transaction_amount": 84904,
+        "transaction_date": "2023-08-31T20:12:42.915Z",
+        "transaction_status": "Pending",
+        "transaction_description": "Salary deposit",
+        "created_at": "2023-09-01T04:07:27.610Z",
+        "updated_at": "2023-08-31T18:52:25.266Z",
+        "customer_id": "e3ba5883-7396-4efc-8d53-61df33c65072"
+      },
+      {
+        "id": "79a48fdb-c857-4dfd-b1a3-09cc3c3d61ef",
+        "transaction_type": "Withdrawal",
+        "transaction_amount": 29384,
+        "transaction_date": "2023-08-31T06:20:38.635Z",
+        "transaction_status": "Cancelled",
+        "transaction_description": "Cash withdrawal",
+        "created_at": "2023-08-31T20:46:04.795Z",
+        "updated_at": "2023-09-01T03:40:21.903Z",
+        "customer_id": "83185b6e-b08b-4640-a96d-1abd74f39193"
+      },
+      {
+        "id": "0f59b8b7-4322-4913-8868-01ee8c95dff1",
+        "transaction_type": "Transfer",
+        "transaction_amount": 16858,
+        "transaction_date": "2023-09-01T03:09:00.471Z",
+        "transaction_status": "Failed",
+        "transaction_description": "Fund transfer",
+        "created_at": "2023-08-31T12:30:14.349Z",
+        "updated_at": "2023-09-01T01:51:12.444Z",
+        "customer_id": "14c74c15-76c1-4d23-a6f7-c12207c0e594"
+      },
+      {
+        "id": "53c83d15-6f7e-40ae-a91e-44460db382e3",
+        "transaction_type": "Payment",
+        "transaction_amount": 50633,
+        "transaction_date": "2023-08-31T20:01:22.520Z",
+        "transaction_status": "Refunded",
+        "transaction_description": "Utility bill payment",
+        "created_at": "2023-08-31T16:43:38.374Z",
+        "updated_at": "2023-08-31T18:02:25.322Z",
+        "customer_id": "f5be0dfd-87db-4392-8115-a88982191a7b"
+      }
+    ],
+    "bill": [
+      {
+        "id": "0ebe7fe2-2551-4c37-9bf6-ff21085244f7",
+        "bill_type": "Electricity",
+        "bill_amount": 44441,
+        "due_date": "2023-09-01T00:29:46.905Z",
+        "payment_date": "2023-08-31T11:15:57.003Z",
+        "status": "Paid",
+        "created_at": "2023-08-31T23:46:40.837Z",
+        "updated_at": "2023-08-31T17:20:14.485Z",
+        "customer_id": "83185b6e-b08b-4640-a96d-1abd74f39193"
+      },
+      {
+        "id": "8c6e9fe8-1d05-451d-b8cb-24a3aa7b5d51",
+        "bill_type": "Water",
+        "bill_amount": 83772,
+        "due_date": "2023-09-01T00:52:20.233Z",
+        "payment_date": "2023-08-31T15:48:50.079Z",
+        "status": "Unpaid",
+        "created_at": "2023-08-31T14:52:26.959Z",
+        "updated_at": "2023-09-01T00:35:47.476Z",
+        "customer_id": "e3ba5883-7396-4efc-8d53-61df33c65072"
+      },
+      {
+        "id": "764ec487-712c-4b98-96ad-c2622a50b668",
+        "bill_type": "Internet",
+        "bill_amount": 57516,
+        "due_date": "2023-08-31T23:06:50.792Z",
+        "payment_date": "2023-09-01T00:42:05.012Z",
+        "status": "Overdue",
+        "created_at": "2023-09-01T01:08:03.526Z",
+        "updated_at": "2023-08-31T14:18:57.273Z",
+        "customer_id": "f5be0dfd-87db-4392-8115-a88982191a7b"
+      },
+      {
+        "id": "9fefc783-93d0-445c-8bf7-1502348df8b9",
+        "bill_type": "Phone",
+        "bill_amount": 94629,
+        "due_date": "2023-09-01T00:53:25.094Z",
+        "payment_date": "2023-08-31T15:51:21.321Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-31T13:41:38.176Z",
+        "updated_at": "2023-08-31T18:01:13.272Z",
+        "customer_id": "e3ba5883-7396-4efc-8d53-61df33c65072"
+      },
+      {
+        "id": "23f4590c-8e97-4306-bf71-0507a0fa4e82",
+        "bill_type": "Gas",
+        "bill_amount": 6456,
+        "due_date": "2023-08-31T05:37:31.210Z",
+        "payment_date": "2023-08-31T12:34:13.008Z",
+        "status": "Partial Payment",
+        "created_at": "2023-09-01T02:00:08.500Z",
+        "updated_at": "2023-08-31T22:18:40.055Z",
+        "customer_id": "83185b6e-b08b-4640-a96d-1abd74f39193"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "857f3e09-ca46-4120-8fb6-ca9e68d10065",
+        "email": "Chaim59@gmail.com",
+        "firstName": "Russ",
+        "lastName": "Torphy",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/637.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "08e5d1de-9eee-4997-b5d4-fbd22d7605e5",
+        "email": "Annabell_Fisher@yahoo.com",
+        "firstName": "Ron",
+        "lastName": "Padberg",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/662.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8235f49d-51b7-49bd-9ae5-31060c046552",
+        "email": "Nyasia_Crona45@hotmail.com",
+        "firstName": "Jamel",
+        "lastName": "Jones",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/39.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d7d42e6e-ade1-4af4-924c-6be0e88c65f5",
+        "email": "Lonzo_Grimes43@gmail.com",
+        "firstName": "Jenifer",
+        "lastName": "Shields",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/664.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c61e6dc5-9aa5-403a-8f42-4dc8d8fce471",
+        "email": "Billy_Ward@gmail.com",
+        "firstName": "Sydni",
+        "lastName": "Ebert",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1002.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "employee": [
+      {
+        "id": "2de99e3b-25a2-43f9-8bd6-c9d7267e8131",
+        "position": "Manager",
+        "date_hired": "2023-08-31T23:37:33.055Z",
+        "date_terminated": "2023-08-31T19:06:25.189Z",
+        "status": "Active",
+        "created_at": "2023-08-31T16:41:11.493Z",
+        "updated_at": "2023-09-01T03:49:53.670Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "846c19f7-40b2-4003-a3fc-dce05fef0643",
+        "position": "Supervisor",
+        "date_hired": "2023-09-01T00:23:58.266Z",
+        "date_terminated": "2023-08-31T22:13:52.525Z",
+        "status": "Inactive",
+        "created_at": "2023-08-31T08:00:55.084Z",
+        "updated_at": "2023-08-31T19:02:10.915Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f9474a30-986d-40bc-8d56-31820b24151e",
+        "position": "Assistant",
+        "date_hired": "2023-09-01T02:58:31.885Z",
+        "date_terminated": "2023-08-31T15:32:58.092Z",
+        "status": "On Leave",
+        "created_at": "2023-09-01T01:01:37.982Z",
+        "updated_at": "2023-08-31T05:34:20.514Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ef48735b-2bf9-4eaa-9ce8-fa21aec9b5db",
+        "position": "Coordinator",
+        "date_hired": "2023-08-31T09:02:50.618Z",
+        "date_terminated": "2023-08-31T16:28:09.723Z",
+        "status": "Retired",
+        "created_at": "2023-09-01T01:21:44.020Z",
+        "updated_at": "2023-09-01T04:53:49.306Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6ca28f04-bbe1-47f1-be81-60fea0e23f36",
+        "position": "Analyst",
+        "date_hired": "2023-08-31T05:43:44.378Z",
+        "date_terminated": "2023-08-31T05:54:46.440Z",
+        "status": "Suspended",
+        "created_at": "2023-09-01T01:05:12.616Z",
+        "updated_at": "2023-08-31T18:34:01.586Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer": [
+      {
+        "id": "dea4e516-386f-4789-812f-183248232f79",
+        "account_number": "1234567890",
+        "account_type": "Savings",
+        "balance": 72930,
+        "credit_card_status": "Active",
+        "credit_card_limit": 46896,
+        "created_at": "2023-08-31T11:51:33.675Z",
+        "updated_at": "2023-08-31T21:32:01.637Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "184b24ad-77cb-46e3-acf0-13d5c50ad44d",
+        "account_number": "9876543210",
+        "account_type": "Checking",
+        "balance": 453,
+        "credit_card_status": "Inactive",
+        "credit_card_limit": 63702,
+        "created_at": "2023-08-31T05:08:35.870Z",
+        "updated_at": "2023-08-31T09:04:47.592Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a9bb4cc7-9155-4df1-a1d6-9903eb0c7e89",
+        "account_number": "2468135790",
+        "account_type": "Investment",
+        "balance": 95969,
+        "credit_card_status": "Blocked",
+        "credit_card_limit": 26104,
+        "created_at": "2023-08-31T16:17:12.265Z",
+        "updated_at": "2023-08-31T06:18:59.696Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3d5021e2-35f9-4f18-9da3-36a505530280",
+        "account_number": "1357924680",
+        "account_type": "Credit Card",
+        "balance": 64576,
+        "credit_card_status": "Expired",
+        "credit_card_limit": 60762,
+        "created_at": "2023-08-31T06:43:19.264Z",
+        "updated_at": "2023-08-31T16:17:15.816Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3ea7e5f9-7633-4870-bf6d-9b1db0db947f",
+        "account_number": "8642097531",
+        "account_type": "Loan",
+        "balance": 3268,
+        "credit_card_status": "Lost",
+        "credit_card_limit": 59922,
+        "created_at": "2023-09-01T04:35:23.191Z",
+        "updated_at": "2023-08-31T19:09:23.030Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "transaction": [
+      {
+        "id": "cbd42f07-c9fd-4820-a615-43e5da878038",
+        "transaction_type": "Purchase",
+        "transaction_amount": 39135,
+        "transaction_date": "2023-08-31T09:18:52.881Z",
+        "transaction_status": "Completed",
+        "transaction_description": "Grocery Shopping",
+        "created_at": "2023-08-31T20:51:43.561Z",
+        "updated_at": "2023-08-31T12:24:32.601Z",
+        "customer_id": "a9bb4cc7-9155-4df1-a1d6-9903eb0c7e89"
+      },
+      {
+        "id": "fcdfd961-4a56-45c6-95a4-a87298a8645d",
+        "transaction_type": "Deposit",
+        "transaction_amount": 50888,
+        "transaction_date": "2023-08-31T10:47:22.401Z",
+        "transaction_status": "Pending",
+        "transaction_description": "Salary Deposit",
+        "created_at": "2023-09-01T01:57:17.106Z",
+        "updated_at": "2023-08-31T16:14:38.441Z",
+        "customer_id": "3ea7e5f9-7633-4870-bf6d-9b1db0db947f"
+      },
+      {
+        "id": "119a98d1-d3da-4015-99e8-8b893dc5d60e",
+        "transaction_type": "Withdrawal",
+        "transaction_amount": 29244,
+        "transaction_date": "2023-08-31T16:40:28.796Z",
+        "transaction_status": "Cancelled",
+        "transaction_description": "Cash Withdrawal",
+        "created_at": "2023-08-31T17:55:36.146Z",
+        "updated_at": "2023-08-31T14:19:47.385Z",
+        "customer_id": "184b24ad-77cb-46e3-acf0-13d5c50ad44d"
+      },
+      {
+        "id": "8733b454-1875-4677-8245-33b4a25a2f68",
+        "transaction_type": "Transfer",
+        "transaction_amount": 77992,
+        "transaction_date": "2023-08-31T05:06:57.994Z",
+        "transaction_status": "Failed",
+        "transaction_description": "Fund Transfer",
+        "created_at": "2023-08-31T17:30:36.805Z",
+        "updated_at": "2023-08-31T22:50:20.884Z",
+        "customer_id": "184b24ad-77cb-46e3-acf0-13d5c50ad44d"
+      },
+      {
+        "id": "1bd642c9-e5f4-4427-bd6e-f65986c275c3",
+        "transaction_type": "Payment",
+        "transaction_amount": 79776,
+        "transaction_date": "2023-09-01T01:57:29.110Z",
+        "transaction_status": "Refunded",
+        "transaction_description": "Utility Bill Payment",
+        "created_at": "2023-08-31T20:22:37.967Z",
+        "updated_at": "2023-09-01T02:12:12.438Z",
+        "customer_id": "a9bb4cc7-9155-4df1-a1d6-9903eb0c7e89"
+      }
+    ],
+    "bill": [
+      {
+        "id": "f09e5102-c462-4be8-b305-45fd05ec0465",
+        "bill_type": "Electricity",
+        "bill_amount": 815,
+        "due_date": "2023-09-01T02:36:42.153Z",
+        "payment_date": "2023-09-01T02:56:48.695Z",
+        "status": "Paid",
+        "created_at": "2023-08-31T08:34:01.318Z",
+        "updated_at": "2023-08-31T19:33:29.436Z",
+        "customer_id": "3d5021e2-35f9-4f18-9da3-36a505530280"
+      },
+      {
+        "id": "8cb07f7e-f74c-498c-9a74-b141fd0a7193",
+        "bill_type": "Water",
+        "bill_amount": 14529,
+        "due_date": "2023-09-01T01:51:59.883Z",
+        "payment_date": "2023-09-01T03:00:15.218Z",
+        "status": "Unpaid",
+        "created_at": "2023-08-31T20:00:48.499Z",
+        "updated_at": "2023-08-31T12:00:42.391Z",
+        "customer_id": "dea4e516-386f-4789-812f-183248232f79"
+      },
+      {
+        "id": "9f3aaa2a-7f9e-4db3-ac49-165a724747ce",
+        "bill_type": "Internet",
+        "bill_amount": 71800,
+        "due_date": "2023-08-31T06:22:24.294Z",
+        "payment_date": "2023-08-31T07:29:21.560Z",
+        "status": "Overdue",
+        "created_at": "2023-09-01T04:31:23.606Z",
+        "updated_at": "2023-08-31T18:21:17.175Z",
+        "customer_id": "3ea7e5f9-7633-4870-bf6d-9b1db0db947f"
+      },
+      {
+        "id": "cd965134-7458-4f9b-ae45-8c556616b9f6",
+        "bill_type": "Phone",
+        "bill_amount": 8944,
+        "due_date": "2023-08-31T05:57:45.029Z",
+        "payment_date": "2023-08-31T15:27:42.976Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-31T10:31:17.922Z",
+        "updated_at": "2023-08-31T08:45:46.612Z",
+        "customer_id": "dea4e516-386f-4789-812f-183248232f79"
+      },
+      {
+        "id": "6c589300-8950-433c-bd72-dc5935bf4ef3",
+        "bill_type": "Cable TV",
+        "bill_amount": 91591,
+        "due_date": "2023-08-31T07:28:00.273Z",
+        "payment_date": "2023-08-31T18:54:01.694Z",
+        "status": "Partial Payment",
+        "created_at": "2023-08-31T11:25:05.095Z",
+        "updated_at": "2023-08-31T16:10:49.597Z",
+        "customer_id": "3ea7e5f9-7633-4870-bf6d-9b1db0db947f"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "54ad639f-5a81-438e-a379-b36875e49221",
+        "email": "Elizabeth_Oberbrunner@gmail.com",
+        "firstName": "Felicity",
+        "lastName": "Koch",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1234.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "17fc72c8-4a66-47d9-bea9-d2ab5d953772",
+        "email": "Jimmy.Homenick@gmail.com",
+        "firstName": "Jonas",
+        "lastName": "Johnson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/72064073",
+        "tenantId": null
+      },
+      {
+        "reference": "5e6e2858-4ac0-41f0-8275-3f9ea02d54e1",
+        "email": "Darlene_Wisoky@hotmail.com",
+        "firstName": "Briana",
+        "lastName": "West",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/787.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "51b6bda2-9b93-4a5e-a349-5db6dab014c6",
+        "email": "Matilde49@yahoo.com",
+        "firstName": "Madge",
+        "lastName": "Hartmann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1212.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a4543eb2-7e4b-4a92-9312-71dc50538385",
+        "email": "Humberto.Jacobson@hotmail.com",
+        "firstName": "Theodore",
+        "lastName": "Spinka",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/412.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "employee": [
+      {
+        "id": "34a6c100-0d15-415b-b16b-e02d21179522",
+        "position": "Manager",
+        "date_hired": "2023-08-31T11:08:39.957Z",
+        "date_terminated": "2023-08-31T12:02:43.711Z",
+        "status": "Active",
+        "created_at": "2023-08-31T17:42:05.392Z",
+        "updated_at": "2023-08-31T20:09:27.856Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bb045f3b-a6c7-42a9-8746-3168960ff52b",
+        "position": "Supervisor",
+        "date_hired": "2023-08-31T21:34:48.666Z",
+        "date_terminated": "2023-08-31T18:41:03.964Z",
+        "status": "Inactive",
+        "created_at": "2023-08-31T17:26:25.174Z",
+        "updated_at": "2023-08-31T14:20:35.884Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b8982c55-ac1d-48ed-bcc6-7b55b5e05feb",
+        "position": "Assistant",
+        "date_hired": "2023-08-31T22:16:50.953Z",
+        "date_terminated": "2023-08-31T13:41:06.463Z",
+        "status": "On Leave",
+        "created_at": "2023-08-31T11:46:01.394Z",
+        "updated_at": "2023-08-31T22:38:35.396Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5a3747b1-e109-4ac3-9233-e01bd6630ee0",
+        "position": "Analyst",
+        "date_hired": "2023-08-31T19:42:02.078Z",
+        "date_terminated": "2023-08-31T13:07:21.397Z",
+        "status": "Retired",
+        "created_at": "2023-08-31T18:24:44.826Z",
+        "updated_at": "2023-08-31T17:08:08.489Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4707909d-b9f4-4b15-a345-89f4cc104f38",
+        "position": "Coordinator",
+        "date_hired": "2023-09-01T01:31:43.284Z",
+        "date_terminated": "2023-08-31T07:18:26.440Z",
+        "status": "Suspended",
+        "created_at": "2023-09-01T04:54:39.270Z",
+        "updated_at": "2023-08-31T13:18:15.513Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer": [
+      {
+        "id": "14836c43-05d8-417b-bd42-99b5ed50cda4",
+        "account_number": "1234567890",
+        "account_type": "Savings",
+        "balance": 50331,
+        "credit_card_status": "Active",
+        "credit_card_limit": 57508,
+        "created_at": "2023-08-31T11:06:44.102Z",
+        "updated_at": "2023-08-31T17:36:12.407Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "01be27f6-503a-44f0-b4f2-2778bce7c82c",
+        "account_number": "9876543210",
+        "account_type": "Checking",
+        "balance": 15225,
+        "credit_card_status": "Inactive",
+        "credit_card_limit": 22308,
+        "created_at": "2023-09-01T01:29:13.050Z",
+        "updated_at": "2023-08-31T19:04:17.623Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6a6f0971-64c4-4adc-ac7a-83e3f084b44c",
+        "account_number": "2468135790",
+        "account_type": "Investment",
+        "balance": 56006,
+        "credit_card_status": "Blocked",
+        "credit_card_limit": 28290,
+        "created_at": "2023-08-31T18:46:38.497Z",
+        "updated_at": "2023-08-31T21:30:19.020Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "668eaccc-743f-42f6-bbcc-45c696594414",
+        "account_number": "1357924680",
+        "account_type": "Credit Card",
+        "balance": 15299,
+        "credit_card_status": "Expired",
+        "credit_card_limit": 7416,
+        "created_at": "2023-09-01T01:44:43.880Z",
+        "updated_at": "2023-08-31T08:10:43.783Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fc9dc58f-16a0-4f84-bc30-5997c67e1ea6",
+        "account_number": "8642097531",
+        "account_type": "Loan",
+        "balance": 38274,
+        "credit_card_status": "Lost",
+        "credit_card_limit": 45285,
+        "created_at": "2023-09-01T04:11:51.780Z",
+        "updated_at": "2023-08-31T20:21:00.615Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "transaction": [
+      {
+        "id": "0df1cfef-1471-48c6-bdd1-60a6822cb48b",
+        "transaction_type": "Deposit",
+        "transaction_amount": 39641,
+        "transaction_date": "2023-09-01T00:12:40.164Z",
+        "transaction_status": "Pending",
+        "transaction_description": "Salary payment",
+        "created_at": "2023-08-31T15:13:54.762Z",
+        "updated_at": "2023-08-31T19:34:11.335Z",
+        "customer_id": "01be27f6-503a-44f0-b4f2-2778bce7c82c"
+      },
+      {
+        "id": "6d6048e4-59ba-46f5-b784-f244d6efdd1e",
+        "transaction_type": "Withdrawal",
+        "transaction_amount": 36132,
+        "transaction_date": "2023-08-31T12:50:59.790Z",
+        "transaction_status": "Completed",
+        "transaction_description": "Utility bill payment",
+        "created_at": "2023-08-31T14:08:20.722Z",
+        "updated_at": "2023-08-31T08:47:43.127Z",
+        "customer_id": "6a6f0971-64c4-4adc-ac7a-83e3f084b44c"
+      },
+      {
+        "id": "344cee14-5b58-418b-830f-158cac55f4ad",
+        "transaction_type": "Transfer",
+        "transaction_amount": 94247,
+        "transaction_date": "2023-08-31T07:56:45.876Z",
+        "transaction_status": "Failed",
+        "transaction_description": "Online purchase",
+        "created_at": "2023-08-31T06:54:34.973Z",
+        "updated_at": "2023-09-01T02:46:05.554Z",
+        "customer_id": "6a6f0971-64c4-4adc-ac7a-83e3f084b44c"
+      },
+      {
+        "id": "0ec9fb95-fd49-4af4-94b8-99347516e79b",
+        "transaction_type": "Payment",
+        "transaction_amount": 88267,
+        "transaction_date": "2023-08-31T15:15:50.204Z",
+        "transaction_status": "Cancelled",
+        "transaction_description": "Loan repayment",
+        "created_at": "2023-08-31T21:12:16.860Z",
+        "updated_at": "2023-09-01T04:43:26.300Z",
+        "customer_id": "6a6f0971-64c4-4adc-ac7a-83e3f084b44c"
+      },
+      {
+        "id": "f9c122f4-a319-48e8-ad6b-92baa35b680f",
+        "transaction_type": "Refund",
+        "transaction_amount": 13377,
+        "transaction_date": "2023-08-31T15:31:58.771Z",
+        "transaction_status": "Reversed",
+        "transaction_description": "Stock trade",
+        "created_at": "2023-08-31T08:53:32.174Z",
+        "updated_at": "2023-09-01T00:55:07.442Z",
+        "customer_id": "6a6f0971-64c4-4adc-ac7a-83e3f084b44c"
+      }
+    ],
+    "bill": [
+      {
+        "id": "d4bc8714-dd89-48f1-acbb-ed9c833bedab",
+        "bill_type": "Electricity",
+        "bill_amount": 74709,
+        "due_date": "2023-08-31T15:41:31.170Z",
+        "payment_date": "2023-08-31T22:20:13.434Z",
+        "status": "Unpaid",
+        "created_at": "2023-09-01T02:25:29.649Z",
+        "updated_at": "2023-09-01T00:40:02.826Z",
+        "customer_id": "fc9dc58f-16a0-4f84-bc30-5997c67e1ea6"
+      },
+      {
+        "id": "b5543814-cc37-4cb3-bac1-04252fc20b72",
+        "bill_type": "Water",
+        "bill_amount": 79801,
+        "due_date": "2023-09-01T00:56:10.609Z",
+        "payment_date": "2023-08-31T05:25:33.398Z",
+        "status": "Paid",
+        "created_at": "2023-08-31T07:38:04.443Z",
+        "updated_at": "2023-09-01T03:45:31.057Z",
+        "customer_id": "fc9dc58f-16a0-4f84-bc30-5997c67e1ea6"
+      },
+      {
+        "id": "d64aca3d-4fee-4ad2-b34b-e8a3bd69399c",
+        "bill_type": "Internet",
+        "bill_amount": 2170,
+        "due_date": "2023-08-31T23:47:20.556Z",
+        "payment_date": "2023-09-01T04:48:17.481Z",
+        "status": "Overdue",
+        "created_at": "2023-08-31T23:39:43.646Z",
+        "updated_at": "2023-08-31T07:24:41.407Z",
+        "customer_id": "fc9dc58f-16a0-4f84-bc30-5997c67e1ea6"
+      },
+      {
+        "id": "836aaad4-d401-4dfe-ba82-106bc8debe52",
+        "bill_type": "Phone",
+        "bill_amount": 84909,
+        "due_date": "2023-08-31T07:22:23.739Z",
+        "payment_date": "2023-08-31T11:28:28.638Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-31T17:05:38.311Z",
+        "updated_at": "2023-08-31T23:52:11.266Z",
+        "customer_id": "6a6f0971-64c4-4adc-ac7a-83e3f084b44c"
+      },
+      {
+        "id": "3d834427-8c4a-4bd2-a32a-094151984cf3",
+        "bill_type": "Gas",
+        "bill_amount": 42952,
+        "due_date": "2023-08-31T15:07:14.905Z",
+        "payment_date": "2023-08-31T06:01:29.094Z",
+        "status": "Partially Paid",
+        "created_at": "2023-08-31T17:06:22.889Z",
+        "updated_at": "2023-08-31T11:08:59.067Z",
+        "customer_id": "668eaccc-743f-42f6-bbcc-45c696594414"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "a2c493a4-a76e-4021-bb79-721473a7c58a",
+        "email": "Dock13@gmail.com",
+        "firstName": "Johnathan",
+        "lastName": "Sanford",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1072.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "76642cbb-84b4-4e3e-8094-669a0950f54a",
+        "email": "Josiah.Muller-Lynch16@gmail.com",
+        "firstName": "Julia",
+        "lastName": "Reichel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2626346",
+        "tenantId": null
+      },
+      {
+        "reference": "2915ee9e-c814-4409-8ba1-027665f17593",
+        "email": "Jacinthe.Bauch52@hotmail.com",
+        "firstName": "Jazlyn",
+        "lastName": "Daugherty",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/76541280",
+        "tenantId": null
+      },
+      {
+        "reference": "03f6633f-fb76-4430-8ace-407256498916",
+        "email": "Garnett_Trantow57@gmail.com",
+        "firstName": "Kaitlin",
+        "lastName": "Sanford",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/70147953",
+        "tenantId": null
+      },
+      {
+        "reference": "1855de47-600b-4d66-9eac-93d2cfc7cae7",
+        "email": "Loyal_Murazik25@yahoo.com",
+        "firstName": "Judd",
+        "lastName": "Abernathy",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/207.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "employee": [
+      {
+        "id": "c6d45950-dc38-4304-aeaa-fdcd8620022a",
+        "position": "Manager",
+        "date_hired": "2023-08-31T19:00:25.837Z",
+        "date_terminated": "2023-09-01T02:16:58.372Z",
+        "status": "Active",
+        "created_at": "2023-08-31T07:29:51.150Z",
+        "updated_at": "2023-08-31T20:05:08.210Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "951803cd-d42c-44f2-922d-bff01e551e30",
+        "position": "Supervisor",
+        "date_hired": "2023-08-31T14:32:07.412Z",
+        "date_terminated": "2023-08-31T13:17:09.656Z",
+        "status": "Inactive",
+        "created_at": "2023-08-31T05:52:50.071Z",
+        "updated_at": "2023-08-31T10:36:28.386Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "78e459d4-e570-49e7-9c7b-7b999af3128a",
+        "position": "Assistant",
+        "date_hired": "2023-09-01T00:01:57.992Z",
+        "date_terminated": "2023-08-31T09:47:34.408Z",
+        "status": "On Leave",
+        "created_at": "2023-09-01T01:07:05.919Z",
+        "updated_at": "2023-08-31T14:11:07.123Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0d396250-eae7-4541-84a4-ba468bbc1a70",
+        "position": "Coordinator",
+        "date_hired": "2023-08-31T22:28:28.276Z",
+        "date_terminated": "2023-08-31T15:55:45.602Z",
+        "status": "Retired",
+        "created_at": "2023-08-31T07:04:06.275Z",
+        "updated_at": "2023-09-01T04:03:22.500Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "81f7337d-c149-49c6-a1e2-8a85a1cc6c30",
+        "position": "Analyst",
+        "date_hired": "2023-08-31T12:30:04.344Z",
+        "date_terminated": "2023-09-01T04:04:53.152Z",
+        "status": "Terminated",
+        "created_at": "2023-08-31T19:54:52.356Z",
+        "updated_at": "2023-09-01T02:09:05.724Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer": [
+      {
+        "id": "d34e6764-33e0-411a-9e6c-beca97cc9c2b",
+        "account_number": "1234567890",
+        "account_type": "Savings",
+        "balance": 55552,
+        "credit_card_status": "Active",
+        "credit_card_limit": 11388,
+        "created_at": "2023-09-01T00:00:20.333Z",
+        "updated_at": "2023-08-31T12:40:28.181Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cbf1dd54-3c2f-4c95-a8b8-74ec4e386466",
+        "account_number": "9876543210",
+        "account_type": "Checking",
+        "balance": 32155,
+        "credit_card_status": "Inactive",
+        "credit_card_limit": 26751,
+        "created_at": "2023-09-01T02:22:25.611Z",
+        "updated_at": "2023-09-01T03:03:14.184Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4f375c81-2ccc-49e0-9a5b-4c80a95d55f7",
+        "account_number": "2468135790",
+        "account_type": "Credit",
+        "balance": 64988,
+        "credit_card_status": "Blocked",
+        "credit_card_limit": 16626,
+        "created_at": "2023-08-31T13:41:28.940Z",
+        "updated_at": "2023-08-31T13:17:27.628Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "07966275-69ff-49c3-85ae-486fb251c65b",
+        "account_number": "1357924680",
+        "account_type": "Investment",
+        "balance": 31616,
+        "credit_card_status": "Expired",
+        "credit_card_limit": 21373,
+        "created_at": "2023-08-31T13:34:23.221Z",
+        "updated_at": "2023-08-31T20:28:17.517Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "41481115-dfea-47cc-a5a8-e345a3bff8dc",
+        "account_number": "8642097531",
+        "account_type": "Loan",
+        "balance": 18948,
+        "credit_card_status": "Lost",
+        "credit_card_limit": 39011,
+        "created_at": "2023-08-31T19:37:17.727Z",
+        "updated_at": "2023-08-31T22:48:04.829Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "transaction": [
+      {
+        "id": "c32c38a6-a7b6-4b82-b94d-c8e64361a2ba",
+        "transaction_type": "Purchase",
+        "transaction_amount": 23071,
+        "transaction_date": "2023-08-31T23:06:25.686Z",
+        "transaction_status": "Pending",
+        "transaction_description": "Grocery shopping",
+        "created_at": "2023-08-31T14:40:35.553Z",
+        "updated_at": "2023-08-31T14:34:43.557Z",
+        "customer_id": "4f375c81-2ccc-49e0-9a5b-4c80a95d55f7"
+      },
+      {
+        "id": "e2635fda-c89a-42ee-a0cc-46c6e25c8af8",
+        "transaction_type": "Transfer",
+        "transaction_amount": 55499,
+        "transaction_date": "2023-08-31T07:20:58.128Z",
+        "transaction_status": "Completed",
+        "transaction_description": "Salary transfer",
+        "created_at": "2023-08-31T07:59:06.245Z",
+        "updated_at": "2023-08-31T07:28:26.873Z",
+        "customer_id": "4f375c81-2ccc-49e0-9a5b-4c80a95d55f7"
+      },
+      {
+        "id": "c45d3435-b740-4892-90f0-f8fb652872b2",
+        "transaction_type": "Withdrawal",
+        "transaction_amount": 48159,
+        "transaction_date": "2023-08-31T12:02:46.582Z",
+        "transaction_status": "Failed",
+        "transaction_description": "Cash withdrawal",
+        "created_at": "2023-08-31T20:10:15.218Z",
+        "updated_at": "2023-08-31T06:58:45.211Z",
+        "customer_id": "41481115-dfea-47cc-a5a8-e345a3bff8dc"
+      },
+      {
+        "id": "2f4c034d-8436-4ad4-bec5-beaf42389fea",
+        "transaction_type": "Deposit",
+        "transaction_amount": 60353,
+        "transaction_date": "2023-09-01T04:08:43.088Z",
+        "transaction_status": "Cancelled",
+        "transaction_description": "Deposit to savings",
+        "created_at": "2023-08-31T06:48:13.208Z",
+        "updated_at": "2023-08-31T23:04:21.350Z",
+        "customer_id": "07966275-69ff-49c3-85ae-486fb251c65b"
+      },
+      {
+        "id": "c696b5a3-f982-4eba-b7ca-5e5c6946932d",
+        "transaction_type": "Payment",
+        "transaction_amount": 62549,
+        "transaction_date": "2023-09-01T01:27:18.358Z",
+        "transaction_status": "Refunded",
+        "transaction_description": "Utility bill payment",
+        "created_at": "2023-08-31T18:27:28.961Z",
+        "updated_at": "2023-09-01T01:35:26.128Z",
+        "customer_id": "4f375c81-2ccc-49e0-9a5b-4c80a95d55f7"
+      }
+    ],
+    "bill": [
+      {
+        "id": "5d2ada5b-05ab-4f3e-b495-0fd2dd8ced4e",
+        "bill_type": "Electricity",
+        "bill_amount": 45939,
+        "due_date": "2023-08-31T10:28:07.073Z",
+        "payment_date": "2023-08-31T20:49:43.099Z",
+        "status": "Paid",
+        "created_at": "2023-08-31T09:16:53.308Z",
+        "updated_at": "2023-08-31T19:02:06.977Z",
+        "customer_id": "07966275-69ff-49c3-85ae-486fb251c65b"
+      },
+      {
+        "id": "ffbdd03c-1761-496e-aef9-d3bd381f0ccc",
+        "bill_type": "Water",
+        "bill_amount": 88649,
+        "due_date": "2023-08-31T19:01:44.346Z",
+        "payment_date": "2023-08-31T06:39:08.845Z",
+        "status": "Unpaid",
+        "created_at": "2023-09-01T01:36:37.880Z",
+        "updated_at": "2023-08-31T19:27:33.779Z",
+        "customer_id": "07966275-69ff-49c3-85ae-486fb251c65b"
+      },
+      {
+        "id": "a4414162-8405-4a0a-84a3-6fbd439c3f56",
+        "bill_type": "Internet",
+        "bill_amount": 20878,
+        "due_date": "2023-08-31T17:52:46.020Z",
+        "payment_date": "2023-08-31T20:51:14.834Z",
+        "status": "Overdue",
+        "created_at": "2023-08-31T16:11:19.670Z",
+        "updated_at": "2023-08-31T18:23:33.731Z",
+        "customer_id": "4f375c81-2ccc-49e0-9a5b-4c80a95d55f7"
+      },
+      {
+        "id": "70181912-d6eb-4d06-8393-62a131f9527b",
+        "bill_type": "Phone",
+        "bill_amount": 65371,
+        "due_date": "2023-08-31T07:53:26.346Z",
+        "payment_date": "2023-08-31T10:01:41.663Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-31T13:50:42.604Z",
+        "updated_at": "2023-09-01T02:38:25.675Z",
+        "customer_id": "cbf1dd54-3c2f-4c95-a8b8-74ec4e386466"
+      },
+      {
+        "id": "1a2577c3-b89d-4979-895c-c3b372984d26",
+        "bill_type": "Rent",
+        "bill_amount": 30665,
+        "due_date": "2023-08-31T06:37:20.439Z",
+        "payment_date": "2023-08-31T11:21:42.526Z",
+        "status": "Refunded",
+        "created_at": "2023-08-31T15:41:18.064Z",
+        "updated_at": "2023-09-01T04:17:15.023Z",
+        "customer_id": "4f375c81-2ccc-49e0-9a5b-4c80a95d55f7"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "6b29ee2a-efe5-459e-b98f-01aa2351eb91",
+        "email": "Simeon29@gmail.com",
+        "firstName": "Grover",
+        "lastName": "Weimann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1196.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "24f01c36-704c-42a7-bed7-bcff9ac4538c",
+        "email": "Tevin.Herman@yahoo.com",
+        "firstName": "Liliane",
+        "lastName": "Thiel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1035.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ae16f562-a0b4-4088-8a5e-5572b069d9f3",
+        "email": "Maxwell_Kub65@gmail.com",
+        "firstName": "Elisa",
+        "lastName": "Little",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/371.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8e6ab5a6-4688-4f08-81f7-8ee665576660",
+        "email": "Vada40@hotmail.com",
+        "firstName": "Lawson",
+        "lastName": "Torp",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/474.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d76a51e9-fa14-42b8-ab01-e8f481a74a6b",
+        "email": "Mohammad.Swaniawski60@gmail.com",
+        "firstName": "Missouri",
+        "lastName": "Gislason",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/20184195",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "employee": [
+      {
+        "id": "751fa0b3-82f3-4cc9-9b1e-10035c7185ef",
+        "position": "Manager",
+        "date_hired": "2023-09-01T00:56:14.816Z",
+        "date_terminated": "2023-08-31T10:24:45.818Z",
+        "status": "Active",
+        "created_at": "2023-08-31T09:04:48.910Z",
+        "updated_at": "2023-08-31T08:12:45.760Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c21b5562-e5cd-446a-ab0d-2d3aed969f81",
+        "position": "Supervisor",
+        "date_hired": "2023-08-31T17:33:27.286Z",
+        "date_terminated": "2023-08-31T20:16:11.204Z",
+        "status": "Inactive",
+        "created_at": "2023-08-31T11:14:25.225Z",
+        "updated_at": "2023-08-31T22:46:34.865Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1c21466b-6892-47cf-9a1c-4b2605c67b2c",
+        "position": "Assistant",
+        "date_hired": "2023-08-31T18:32:20.885Z",
+        "date_terminated": "2023-09-01T00:24:40.256Z",
+        "status": "On Leave",
+        "created_at": "2023-08-31T09:13:46.199Z",
+        "updated_at": "2023-09-01T04:47:21.837Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1251c96d-aefd-4ec4-bd8b-6975dc3dc222",
+        "position": "Coordinator",
+        "date_hired": "2023-09-01T00:51:16.423Z",
+        "date_terminated": "2023-08-31T14:57:07.950Z",
+        "status": "Retired",
+        "created_at": "2023-08-31T09:25:42.362Z",
+        "updated_at": "2023-08-31T22:17:44.263Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b5e28342-c258-4efb-bf6e-4ac29f5e27f6",
+        "position": "Analyst",
+        "date_hired": "2023-09-01T03:50:04.874Z",
+        "date_terminated": "2023-08-31T08:59:27.735Z",
+        "status": "Suspended",
+        "created_at": "2023-09-01T03:14:49.289Z",
+        "updated_at": "2023-08-31T16:45:28.170Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer": [
+      {
+        "id": "5791afbe-555c-4235-9a4d-7c17e6a2b5d4",
+        "account_number": "1234567890",
+        "account_type": "Savings",
+        "balance": 54971,
+        "credit_card_status": "Active",
+        "credit_card_limit": 10742,
+        "created_at": "2023-08-31T23:15:48.696Z",
+        "updated_at": "2023-09-01T02:18:10.377Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "eea4920f-674f-4398-8051-fe298e04185a",
+        "account_number": "0987654321",
+        "account_type": "Checking",
+        "balance": 27108,
+        "credit_card_status": "Inactive",
+        "credit_card_limit": 94444,
+        "created_at": "2023-08-31T08:14:20.211Z",
+        "updated_at": "2023-08-31T07:03:14.480Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2d86a9bb-a5ce-4440-a6de-b8878c3f9630",
+        "account_number": "9876543210",
+        "account_type": "Investment",
+        "balance": 94787,
+        "credit_card_status": "Blocked",
+        "credit_card_limit": 41209,
+        "created_at": "2023-09-01T00:22:12.322Z",
+        "updated_at": "2023-09-01T03:16:04.258Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "08a734a7-b4b9-4844-8c2d-adfed51d6a78",
+        "account_number": "0123456789",
+        "account_type": "Credit",
+        "balance": 39799,
+        "credit_card_status": "Expired",
+        "credit_card_limit": 83866,
+        "created_at": "2023-08-31T05:03:09.053Z",
+        "updated_at": "2023-08-31T07:39:31.665Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d3539a20-ab87-4a32-8b20-c4e31f02bdcb",
+        "account_number": "5432109876",
+        "account_type": "Loan",
+        "balance": 35375,
+        "credit_card_status": "Lost",
+        "credit_card_limit": 76681,
+        "created_at": "2023-08-31T19:50:24.501Z",
+        "updated_at": "2023-08-31T19:52:01.341Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "transaction": [
+      {
+        "id": "f30bb7f6-7540-419d-bde2-fd9169961b54",
+        "transaction_type": "Purchase",
+        "transaction_amount": 35255,
+        "transaction_date": "2023-09-01T04:02:30.031Z",
+        "transaction_status": "Pending",
+        "transaction_description": "Grocery shopping",
+        "created_at": "2023-08-31T05:12:44.741Z",
+        "updated_at": "2023-08-31T07:49:20.233Z",
+        "customer_id": "5791afbe-555c-4235-9a4d-7c17e6a2b5d4"
+      },
+      {
+        "id": "252bdb5e-61ee-47b8-9aba-21de43cd696d",
+        "transaction_type": "Withdrawal",
+        "transaction_amount": 64989,
+        "transaction_date": "2023-08-31T16:35:28.783Z",
+        "transaction_status": "Completed",
+        "transaction_description": "Cash withdrawal",
+        "created_at": "2023-08-31T17:02:54.642Z",
+        "updated_at": "2023-08-31T10:31:37.797Z",
+        "customer_id": "2d86a9bb-a5ce-4440-a6de-b8878c3f9630"
+      },
+      {
+        "id": "985fd38b-f6a5-493a-b03b-ef5383c11bf6",
+        "transaction_type": "Deposit",
+        "transaction_amount": 502,
+        "transaction_date": "2023-08-31T13:11:53.019Z",
+        "transaction_status": "Failed",
+        "transaction_description": "Salary deposit",
+        "created_at": "2023-08-31T15:33:11.650Z",
+        "updated_at": "2023-08-31T09:19:37.268Z",
+        "customer_id": "2d86a9bb-a5ce-4440-a6de-b8878c3f9630"
+      },
+      {
+        "id": "0f253d24-26d8-40f8-926a-b11a16557f0a",
+        "transaction_type": "Transfer",
+        "transaction_amount": 91912,
+        "transaction_date": "2023-08-31T15:14:30.835Z",
+        "transaction_status": "Cancelled",
+        "transaction_description": "Fund transfer",
+        "created_at": "2023-09-01T00:52:36.384Z",
+        "updated_at": "2023-08-31T15:56:35.364Z",
+        "customer_id": "2d86a9bb-a5ce-4440-a6de-b8878c3f9630"
+      },
+      {
+        "id": "9ca95eb1-6bc6-4e10-9fbc-f62a0e93275f",
+        "transaction_type": "Payment",
+        "transaction_amount": 74658,
+        "transaction_date": "2023-08-31T22:05:20.630Z",
+        "transaction_status": "Refunded",
+        "transaction_description": "Utility bill payment",
+        "created_at": "2023-08-31T05:53:19.738Z",
+        "updated_at": "2023-08-31T18:08:33.735Z",
+        "customer_id": "5791afbe-555c-4235-9a4d-7c17e6a2b5d4"
+      }
+    ],
+    "bill": [
+      {
+        "id": "f0f3e90f-bdb9-4f51-b7a2-8eccb251e4cc",
+        "bill_type": "Electricity",
+        "bill_amount": 34145,
+        "due_date": "2023-09-01T02:05:48.908Z",
+        "payment_date": "2023-08-31T17:33:31.380Z",
+        "status": "Unpaid",
+        "created_at": "2023-08-31T20:53:24.481Z",
+        "updated_at": "2023-08-31T15:39:13.047Z",
+        "customer_id": "2d86a9bb-a5ce-4440-a6de-b8878c3f9630"
+      },
+      {
+        "id": "3b07f673-b4bd-4346-a6fa-74c29a01c87d",
+        "bill_type": "Water",
+        "bill_amount": 34634,
+        "due_date": "2023-09-01T00:52:15.375Z",
+        "payment_date": "2023-08-31T10:46:53.924Z",
+        "status": "Paid",
+        "created_at": "2023-09-01T00:05:49.086Z",
+        "updated_at": "2023-08-31T10:50:41.222Z",
+        "customer_id": "d3539a20-ab87-4a32-8b20-c4e31f02bdcb"
+      },
+      {
+        "id": "97662638-19e9-4672-a5ef-7b93b8a44e18",
+        "bill_type": "Internet",
+        "bill_amount": 21431,
+        "due_date": "2023-08-31T10:05:36.887Z",
+        "payment_date": "2023-08-31T19:17:28.940Z",
+        "status": "Overdue",
+        "created_at": "2023-08-31T11:11:15.052Z",
+        "updated_at": "2023-08-31T13:03:49.052Z",
+        "customer_id": "d3539a20-ab87-4a32-8b20-c4e31f02bdcb"
+      },
+      {
+        "id": "b154d60f-0cd9-4fd8-b194-7968af7b8b79",
+        "bill_type": "Phone",
+        "bill_amount": 70977,
+        "due_date": "2023-08-31T12:11:30.075Z",
+        "payment_date": "2023-08-31T11:32:55.813Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-31T23:02:53.031Z",
+        "updated_at": "2023-09-01T02:17:29.332Z",
+        "customer_id": "2d86a9bb-a5ce-4440-a6de-b8878c3f9630"
+      },
+      {
+        "id": "09bcf86a-93df-4567-8b97-f2326d0f0db3",
+        "bill_type": "Cable",
+        "bill_amount": 10072,
+        "due_date": "2023-08-31T10:15:35.296Z",
+        "payment_date": "2023-08-31T23:08:02.544Z",
+        "status": "Pending",
+        "created_at": "2023-08-31T07:53:51.741Z",
+        "updated_at": "2023-08-31T08:57:16.370Z",
+        "customer_id": "2d86a9bb-a5ce-4440-a6de-b8878c3f9630"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "f76198a8-9cd3-4d0e-a30e-775ec58359aa",
+        "email": "Juston_Kessler30@yahoo.com",
+        "firstName": "Idella",
+        "lastName": "Torphy",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/68993621",
+        "tenantId": null
+      },
+      {
+        "reference": "2af8091e-5f1b-491c-9fa0-e6e03c54b56a",
+        "email": "Greyson_McCullough@yahoo.com",
+        "firstName": "Eusebio",
+        "lastName": "Paucek",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/306.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "121203c7-7829-422e-b620-43142695166a",
+        "email": "Tess33@hotmail.com",
+        "firstName": "Reyna",
+        "lastName": "Botsford",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/751.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "47cb08fb-bc2b-4a7e-bfc9-3ff6f69b54e6",
+        "email": "Dariana_Sporer@hotmail.com",
+        "firstName": "Judge",
+        "lastName": "Brown",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/74849645",
+        "tenantId": null
+      },
+      {
+        "reference": "27fbbe80-fd01-4c51-9c8e-120fc7673947",
+        "email": "Dave17@hotmail.com",
+        "firstName": "Jessica",
+        "lastName": "Bruen",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/84284608",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "employee": [
+      {
+        "id": "dbec0c4a-9e8b-473a-ae18-f0a95b6f8a51",
+        "position": "Manager",
+        "date_hired": "2023-08-31T17:20:03.286Z",
+        "date_terminated": "2023-08-31T17:35:02.961Z",
+        "status": "Active",
+        "created_at": "2023-08-31T19:22:07.935Z",
+        "updated_at": "2023-08-31T15:24:17.040Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "44d036fc-b827-4cbb-b5d2-e247061a806e",
+        "position": "Supervisor",
+        "date_hired": "2023-08-31T07:06:42.381Z",
+        "date_terminated": "2023-08-31T20:13:04.829Z",
+        "status": "Inactive",
+        "created_at": "2023-08-31T05:55:51.993Z",
+        "updated_at": "2023-08-31T17:35:41.461Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "23767c6b-e47e-45c7-9b2b-9842480b75aa",
+        "position": "Assistant",
+        "date_hired": "2023-08-31T22:01:31.435Z",
+        "date_terminated": "2023-08-31T12:38:50.434Z",
+        "status": "On Leave",
+        "created_at": "2023-09-01T02:04:47.522Z",
+        "updated_at": "2023-08-31T11:15:55.585Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0275e4c8-56e5-4cae-8436-c15c579b7c1e",
+        "position": "Analyst",
+        "date_hired": "2023-08-31T21:52:49.562Z",
+        "date_terminated": "2023-09-01T03:34:46.267Z",
+        "status": "Retired",
+        "created_at": "2023-09-01T03:35:59.966Z",
+        "updated_at": "2023-08-31T16:38:31.916Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6ef9a23d-a747-4991-9da5-1fb53017c72d",
+        "position": "Coordinator",
+        "date_hired": "2023-08-31T15:46:22.331Z",
+        "date_terminated": "2023-08-31T07:56:45.299Z",
+        "status": "Terminated",
+        "created_at": "2023-08-31T07:56:18.054Z",
+        "updated_at": "2023-08-31T06:12:53.383Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer": [
+      {
+        "id": "fe2e2026-e1e1-48d8-927b-8c16036349f1",
+        "account_number": "1234567890",
+        "account_type": "Savings",
+        "balance": 11570,
+        "credit_card_status": "Active",
+        "credit_card_limit": 27004,
+        "created_at": "2023-08-31T15:13:29.019Z",
+        "updated_at": "2023-08-31T17:25:17.115Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f4e8ba54-01c2-477e-af05-62e5a9ef48e5",
+        "account_number": "0987654321",
+        "account_type": "Checking",
+        "balance": 94949,
+        "credit_card_status": "Inactive",
+        "credit_card_limit": 13046,
+        "created_at": "2023-08-31T07:53:56.355Z",
+        "updated_at": "2023-08-31T10:30:00.127Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7b072404-2f0a-4aaf-9b7d-b3ca2dde22a9",
+        "account_number": "9876543210",
+        "account_type": "Investment",
+        "balance": 79726,
+        "credit_card_status": "Blocked",
+        "credit_card_limit": 69218,
+        "created_at": "2023-08-31T14:07:54.988Z",
+        "updated_at": "2023-08-31T18:38:08.682Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a4913843-e356-455d-bf8d-9eedeead1caf",
+        "account_number": "0123456789",
+        "account_type": "Credit",
+        "balance": 61505,
+        "credit_card_status": "Expired",
+        "credit_card_limit": 36754,
+        "created_at": "2023-08-31T15:38:16.693Z",
+        "updated_at": "2023-08-31T22:59:25.822Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "56a5cb94-0e58-444c-aea2-5a4f5bc14710",
+        "account_number": "5432109876",
+        "account_type": "Loan",
+        "balance": 59949,
+        "credit_card_status": "Lost",
+        "credit_card_limit": 20207,
+        "created_at": "2023-08-31T15:03:53.742Z",
+        "updated_at": "2023-08-31T21:15:52.571Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "transaction": [
+      {
+        "id": "39508af1-743a-44a7-bf82-3b2940ee0074",
+        "transaction_type": "Purchase",
+        "transaction_amount": 56384,
+        "transaction_date": "2023-08-31T21:22:39.619Z",
+        "transaction_status": "Completed",
+        "transaction_description": "Online Shopping",
+        "created_at": "2023-09-01T02:40:31.851Z",
+        "updated_at": "2023-08-31T15:04:38.430Z",
+        "customer_id": "a4913843-e356-455d-bf8d-9eedeead1caf"
+      },
+      {
+        "id": "eabd6c89-555f-4de0-95ed-c4096f410183",
+        "transaction_type": "Deposit",
+        "transaction_amount": 33796,
+        "transaction_date": "2023-09-01T01:59:27.005Z",
+        "transaction_status": "Pending",
+        "transaction_description": "Salary Deposit",
+        "created_at": "2023-09-01T02:33:49.498Z",
+        "updated_at": "2023-08-31T07:52:28.628Z",
+        "customer_id": "fe2e2026-e1e1-48d8-927b-8c16036349f1"
+      },
+      {
+        "id": "50fb9c6b-8f62-49dc-94c7-4ae1aa2f1f15",
+        "transaction_type": "Withdrawal",
+        "transaction_amount": 60604,
+        "transaction_date": "2023-08-31T20:14:07.823Z",
+        "transaction_status": "Cancelled",
+        "transaction_description": "Cash Withdrawal",
+        "created_at": "2023-08-31T16:23:16.347Z",
+        "updated_at": "2023-08-31T05:03:54.162Z",
+        "customer_id": "a4913843-e356-455d-bf8d-9eedeead1caf"
+      },
+      {
+        "id": "0174a958-ea56-4313-b866-8c4a81a21872",
+        "transaction_type": "Transfer",
+        "transaction_amount": 59996,
+        "transaction_date": "2023-08-31T14:50:41.394Z",
+        "transaction_status": "Failed",
+        "transaction_description": "Account Transfer",
+        "created_at": "2023-08-31T23:42:18.949Z",
+        "updated_at": "2023-08-31T08:07:04.648Z",
+        "customer_id": "f4e8ba54-01c2-477e-af05-62e5a9ef48e5"
+      },
+      {
+        "id": "7a391abb-70e7-4048-b26f-e987e56cd1af",
+        "transaction_type": "Payment",
+        "transaction_amount": 13470,
+        "transaction_date": "2023-08-31T09:57:37.227Z",
+        "transaction_status": "Refunded",
+        "transaction_description": "Utility Bill Payment",
+        "created_at": "2023-09-01T01:06:05.532Z",
+        "updated_at": "2023-08-31T10:32:14.354Z",
+        "customer_id": "56a5cb94-0e58-444c-aea2-5a4f5bc14710"
+      }
+    ],
+    "bill": [
+      {
+        "id": "c41e8bef-3377-4e47-abf9-6b01236e10ca",
+        "bill_type": "Electricity",
+        "bill_amount": 73764,
+        "due_date": "2023-09-01T00:28:25.478Z",
+        "payment_date": "2023-08-31T22:33:43.171Z",
+        "status": "Paid",
+        "created_at": "2023-08-31T08:43:48.796Z",
+        "updated_at": "2023-08-31T08:51:05.839Z",
+        "customer_id": "7b072404-2f0a-4aaf-9b7d-b3ca2dde22a9"
+      },
+      {
+        "id": "95d2748b-3def-4b1a-9cae-4cf8e235f240",
+        "bill_type": "Water",
+        "bill_amount": 5571,
+        "due_date": "2023-08-31T21:38:46.207Z",
+        "payment_date": "2023-09-01T01:36:48.242Z",
+        "status": "Unpaid",
+        "created_at": "2023-08-31T23:19:50.287Z",
+        "updated_at": "2023-09-01T01:20:53.845Z",
+        "customer_id": "a4913843-e356-455d-bf8d-9eedeead1caf"
+      },
+      {
+        "id": "0b26896a-0bf3-438d-8fdb-9cb498aeaf68",
+        "bill_type": "Internet",
+        "bill_amount": 66035,
+        "due_date": "2023-09-01T04:15:42.946Z",
+        "payment_date": "2023-08-31T20:41:07.249Z",
+        "status": "Overdue",
+        "created_at": "2023-08-31T13:08:08.417Z",
+        "updated_at": "2023-08-31T18:15:44.591Z",
+        "customer_id": "56a5cb94-0e58-444c-aea2-5a4f5bc14710"
+      },
+      {
+        "id": "7c53e2a5-c819-4756-ae34-8dabea2a73d6",
+        "bill_type": "Phone",
+        "bill_amount": 54253,
+        "due_date": "2023-09-01T01:05:11.568Z",
+        "payment_date": "2023-09-01T01:20:04.087Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-31T16:50:49.116Z",
+        "updated_at": "2023-08-31T12:27:47.586Z",
+        "customer_id": "fe2e2026-e1e1-48d8-927b-8c16036349f1"
+      },
+      {
+        "id": "731dc869-67bb-49da-8cb2-2f1e49884e4b",
+        "bill_type": "Rent",
+        "bill_amount": 29766,
+        "due_date": "2023-08-31T18:42:21.345Z",
+        "payment_date": "2023-09-01T04:24:16.578Z",
+        "status": "Partial Payment",
+        "created_at": "2023-08-31T15:22:36.276Z",
+        "updated_at": "2023-09-01T00:10:26.602Z",
+        "customer_id": "a4913843-e356-455d-bf8d-9eedeead1caf"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "3e3828e8-17ad-4285-b3fb-116143e36323",
+        "email": "Bernie39@gmail.com",
+        "firstName": "Yolanda",
+        "lastName": "Leuschke",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/926.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "43af7a5f-cbc2-426e-994f-1b580f4da121",
+        "email": "Kayley78@hotmail.com",
+        "firstName": "Jordyn",
+        "lastName": "Mayer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/89439454",
+        "tenantId": null
+      },
+      {
+        "reference": "95016860-1b4e-4ed5-9ca1-27ae0a7d55be",
+        "email": "Cordia.Stanton@gmail.com",
+        "firstName": "Jevon",
+        "lastName": "Hahn",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/652.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "36be9746-17d5-4c87-9a2b-321ed54d0961",
+        "email": "Waino_Nikolaus@hotmail.com",
+        "firstName": "Vella",
+        "lastName": "Paucek-Morar",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4185794",
+        "tenantId": null
+      },
+      {
+        "reference": "a145174e-935b-4674-bc5b-8393bc791c39",
+        "email": "Walter.Fay20@hotmail.com",
+        "firstName": "Trisha",
+        "lastName": "Parker",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/468.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "employee": [
+      {
+        "id": "370fa548-b37b-4787-9d30-467276b8de0c",
+        "position": "Manager",
+        "date_hired": "2023-08-31T12:06:51.104Z",
+        "date_terminated": "2023-08-31T10:20:21.813Z",
+        "status": "Active",
+        "created_at": "2023-08-31T18:34:21.567Z",
+        "updated_at": "2023-09-01T03:17:14.294Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6c1efb3e-637e-44ce-ad96-088c1526a4d2",
+        "position": "Supervisor",
+        "date_hired": "2023-08-31T18:33:50.680Z",
+        "date_terminated": "2023-08-31T09:46:24.574Z",
+        "status": "Inactive",
+        "created_at": "2023-09-01T03:06:21.748Z",
+        "updated_at": "2023-08-31T10:40:44.371Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "71f2da7d-3a23-4fc5-9820-d0a7e390c0f5",
+        "position": "Assistant",
+        "date_hired": "2023-08-31T13:28:00.450Z",
+        "date_terminated": "2023-09-01T04:40:43.769Z",
+        "status": "On Leave",
+        "created_at": "2023-09-01T02:08:37.671Z",
+        "updated_at": "2023-08-31T20:37:59.455Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4d086e2d-329f-4b0c-b6f9-7e41dc2b7c54",
+        "position": "Analyst",
+        "date_hired": "2023-08-31T10:58:05.100Z",
+        "date_terminated": "2023-08-31T09:31:16.902Z",
+        "status": "Retired",
+        "created_at": "2023-09-01T01:18:11.271Z",
+        "updated_at": "2023-08-31T23:47:56.661Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "009f0c66-0409-4c6f-8312-f1be8c71b5e1",
+        "position": "Coordinator",
+        "date_hired": "2023-08-31T07:03:06.190Z",
+        "date_terminated": "2023-08-31T14:01:53.729Z",
+        "status": "Suspended",
+        "created_at": "2023-08-31T12:53:00.946Z",
+        "updated_at": "2023-08-31T22:49:53.885Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer": [
+      {
+        "id": "d873d43f-3834-4369-ac8f-83dcab3e40ec",
+        "account_number": "1234567890",
+        "account_type": "Savings",
+        "balance": 56693,
+        "credit_card_status": "Active",
+        "credit_card_limit": 4626,
+        "created_at": "2023-08-31T20:48:49.707Z",
+        "updated_at": "2023-08-31T09:16:41.380Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "44e854ff-4ebb-48a0-b2f4-9edd0fbcde0c",
+        "account_number": "0987654321",
+        "account_type": "Checking",
+        "balance": 23656,
+        "credit_card_status": "Inactive",
+        "credit_card_limit": 60762,
+        "created_at": "2023-08-31T23:13:12.266Z",
+        "updated_at": "2023-08-31T22:23:48.277Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "27e66fcc-7fd3-4a05-8b45-d6427e17bf9b",
+        "account_number": "2468135790",
+        "account_type": "Investment",
+        "balance": 49700,
+        "credit_card_status": "Blocked",
+        "credit_card_limit": 59990,
+        "created_at": "2023-08-31T06:01:34.383Z",
+        "updated_at": "2023-08-31T17:14:49.820Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c54dcc6a-929e-4962-a988-ccf084246299",
+        "account_number": "1357924680",
+        "account_type": "Credit",
+        "balance": 89396,
+        "credit_card_status": "Expired",
+        "credit_card_limit": 58860,
+        "created_at": "2023-08-31T10:00:15.978Z",
+        "updated_at": "2023-08-31T18:58:30.593Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b8a61b8b-fb8a-4e18-989a-f8c97635f035",
+        "account_number": "9876543210",
+        "account_type": "Loan",
+        "balance": 87458,
+        "credit_card_status": "Lost",
+        "credit_card_limit": 46670,
+        "created_at": "2023-08-31T21:14:39.569Z",
+        "updated_at": "2023-08-31T08:06:08.294Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "transaction": [
+      {
+        "id": "8cd735b7-ad3b-4e8a-9a14-3903eaaab31a",
+        "transaction_type": "Purchase",
+        "transaction_amount": 34176,
+        "transaction_date": "2023-08-31T11:25:21.082Z",
+        "transaction_status": "Successful",
+        "transaction_description": "Grocery shopping",
+        "created_at": "2023-08-31T10:05:50.401Z",
+        "updated_at": "2023-08-31T23:59:55.347Z",
+        "customer_id": "44e854ff-4ebb-48a0-b2f4-9edd0fbcde0c"
+      },
+      {
+        "id": "b6cbc066-4008-4efb-9660-ed89e5c3ba0f",
+        "transaction_type": "Transfer",
+        "transaction_amount": 83640,
+        "transaction_date": "2023-08-31T13:10:49.346Z",
+        "transaction_status": "Pending",
+        "transaction_description": "Salary transfer",
+        "created_at": "2023-08-31T20:39:06.222Z",
+        "updated_at": "2023-08-31T17:23:37.439Z",
+        "customer_id": "b8a61b8b-fb8a-4e18-989a-f8c97635f035"
+      },
+      {
+        "id": "d60e53d2-61ce-4de1-af39-72e06e5ff2f1",
+        "transaction_type": "Withdrawal",
+        "transaction_amount": 34689,
+        "transaction_date": "2023-08-31T18:11:42.850Z",
+        "transaction_status": "Failed",
+        "transaction_description": "Cash withdrawal",
+        "created_at": "2023-08-31T18:20:15.840Z",
+        "updated_at": "2023-08-31T09:12:56.096Z",
+        "customer_id": "27e66fcc-7fd3-4a05-8b45-d6427e17bf9b"
+      },
+      {
+        "id": "96c0a2bf-250f-49b2-9d73-c10842141bf2",
+        "transaction_type": "Deposit",
+        "transaction_amount": 88977,
+        "transaction_date": "2023-08-31T17:35:42.592Z",
+        "transaction_status": "Cancelled",
+        "transaction_description": "Account deposit",
+        "created_at": "2023-08-31T10:44:18.570Z",
+        "updated_at": "2023-09-01T00:53:07.400Z",
+        "customer_id": "27e66fcc-7fd3-4a05-8b45-d6427e17bf9b"
+      },
+      {
+        "id": "b02a9da1-9f2c-4768-a5e6-237aeee9de91",
+        "transaction_type": "Payment",
+        "transaction_amount": 69043,
+        "transaction_date": "2023-08-31T08:24:23.990Z",
+        "transaction_status": "Refunded",
+        "transaction_description": "Utility bill payment",
+        "created_at": "2023-08-31T15:18:09.115Z",
+        "updated_at": "2023-08-31T07:44:40.654Z",
+        "customer_id": "b8a61b8b-fb8a-4e18-989a-f8c97635f035"
+      }
+    ],
+    "bill": [
+      {
+        "id": "0a9e928a-f95a-40f6-96a1-ce05f396613b",
+        "bill_type": "Electricity",
+        "bill_amount": 25818,
+        "due_date": "2023-09-01T01:24:09.459Z",
+        "payment_date": "2023-08-31T21:30:08.068Z",
+        "status": "Paid",
+        "created_at": "2023-08-31T08:19:41.912Z",
+        "updated_at": "2023-08-31T19:40:36.314Z",
+        "customer_id": "d873d43f-3834-4369-ac8f-83dcab3e40ec"
+      },
+      {
+        "id": "34c8e9bc-5172-4462-8543-131c6d3cf8ac",
+        "bill_type": "Water",
+        "bill_amount": 19747,
+        "due_date": "2023-08-31T11:52:17.310Z",
+        "payment_date": "2023-09-01T04:19:16.276Z",
+        "status": "Unpaid",
+        "created_at": "2023-08-31T12:26:04.065Z",
+        "updated_at": "2023-08-31T16:33:47.362Z",
+        "customer_id": "c54dcc6a-929e-4962-a988-ccf084246299"
+      },
+      {
+        "id": "20430cf4-550a-4372-8f15-73986d509417",
+        "bill_type": "Internet",
+        "bill_amount": 23062,
+        "due_date": "2023-08-31T07:36:50.098Z",
+        "payment_date": "2023-08-31T21:00:53.777Z",
+        "status": "Overdue",
+        "created_at": "2023-08-31T18:04:02.704Z",
+        "updated_at": "2023-08-31T07:23:41.339Z",
+        "customer_id": "c54dcc6a-929e-4962-a988-ccf084246299"
+      },
+      {
+        "id": "3d9f60ea-adad-408d-8e10-4c5e49b30b8b",
+        "bill_type": "Phone",
+        "bill_amount": 97248,
+        "due_date": "2023-08-31T13:35:09.435Z",
+        "payment_date": "2023-08-31T05:22:38.002Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-31T09:47:02.128Z",
+        "updated_at": "2023-08-31T05:39:49.448Z",
+        "customer_id": "27e66fcc-7fd3-4a05-8b45-d6427e17bf9b"
+      },
+      {
+        "id": "9a9a7b13-f170-43fb-a73e-ebeb9217ebca",
+        "bill_type": "Cable",
+        "bill_amount": 26197,
+        "due_date": "2023-08-31T12:47:18.109Z",
+        "payment_date": "2023-09-01T01:47:26.442Z",
+        "status": "Pending",
+        "created_at": "2023-08-31T18:06:47.389Z",
+        "updated_at": "2023-09-01T00:30:07.759Z",
+        "customer_id": "b8a61b8b-fb8a-4e18-989a-f8c97635f035"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "61f0cd45-5cdc-49e7-a47d-e6cdc9e15ae4",
+        "email": "Hallie_Zulauf@yahoo.com",
+        "firstName": "Therese",
+        "lastName": "Mertz",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1220.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "7bd6154e-20dd-449c-8762-de858df3c246",
+        "email": "Hannah.Kuhic@hotmail.com",
+        "firstName": "Roy",
+        "lastName": "Moen",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/862.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f9b3319a-e970-4e1e-8cb1-0ee41b4ad7e8",
+        "email": "Chyna96@gmail.com",
+        "firstName": "Patience",
+        "lastName": "Rau",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/70122106",
+        "tenantId": null
+      },
+      {
+        "reference": "8582d089-26f6-40d9-bcb5-27c560e01182",
+        "email": "Schuyler52@hotmail.com",
+        "firstName": "Theresa",
+        "lastName": "Wintheiser",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/813.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "17ff14f2-5f58-452d-9c2c-69c16284ce41",
+        "email": "Luis.Boyer84@hotmail.com",
+        "firstName": "Kellen",
+        "lastName": "Hickle",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/32046626",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "employee": [
+      {
+        "id": "e74dcd84-7433-4d0c-8db8-ca96f8469979",
+        "position": "Manager",
+        "date_hired": "2023-08-31T07:58:11.949Z",
+        "date_terminated": "2023-08-31T13:43:30.894Z",
+        "status": "Active",
+        "created_at": "2023-08-31T17:05:04.011Z",
+        "updated_at": "2023-08-31T07:36:26.018Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7010f9b6-4e43-4a3a-8df7-7f985bd60a43",
+        "position": "Supervisor",
+        "date_hired": "2023-08-31T20:13:43.849Z",
+        "date_terminated": "2023-08-31T20:09:21.767Z",
+        "status": "Inactive",
+        "created_at": "2023-08-31T16:37:45.160Z",
+        "updated_at": "2023-08-31T12:21:30.466Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8aeb1947-2c0b-4945-9586-0fb1528a223f",
+        "position": "Assistant",
+        "date_hired": "2023-08-31T19:02:18.109Z",
+        "date_terminated": "2023-08-31T19:45:34.485Z",
+        "status": "On Leave",
+        "created_at": "2023-09-01T04:50:23.535Z",
+        "updated_at": "2023-08-31T11:59:03.634Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6ac990bc-ddaf-4135-8ca7-9480d80a10cd",
+        "position": "Analyst",
+        "date_hired": "2023-08-31T08:56:39.584Z",
+        "date_terminated": "2023-08-31T17:44:06.038Z",
+        "status": "Retired",
+        "created_at": "2023-09-01T02:48:30.327Z",
+        "updated_at": "2023-08-31T19:44:00.178Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "83f898f0-c8d0-45ad-9cff-b8945a86e08a",
+        "position": "Coordinator",
+        "date_hired": "2023-08-31T18:56:19.318Z",
+        "date_terminated": "2023-08-31T22:56:22.070Z",
+        "status": "Suspended",
+        "created_at": "2023-09-01T00:17:46.082Z",
+        "updated_at": "2023-08-31T18:22:02.148Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer": [
+      {
+        "id": "c0c2abe5-b744-42d3-bc23-3d677145e0d7",
+        "account_number": "1234567890",
+        "account_type": "Savings",
+        "balance": 45182,
+        "credit_card_status": "Active",
+        "credit_card_limit": 6427,
+        "created_at": "2023-08-31T14:56:06.437Z",
+        "updated_at": "2023-09-01T01:33:00.279Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7ca61988-16c5-4033-8271-8c1f18771ab5",
+        "account_number": "0987654321",
+        "account_type": "Checking",
+        "balance": 67423,
+        "credit_card_status": "Inactive",
+        "credit_card_limit": 52442,
+        "created_at": "2023-08-31T19:50:55.000Z",
+        "updated_at": "2023-08-31T23:56:44.980Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8b3da3ef-5260-48ac-9ea7-6f3cc9df9d0e",
+        "account_number": "9876543210",
+        "account_type": "Investment",
+        "balance": 64732,
+        "credit_card_status": "Blocked",
+        "credit_card_limit": 25348,
+        "created_at": "2023-08-31T06:33:58.321Z",
+        "updated_at": "2023-08-31T21:42:08.027Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "935bdc32-ee2c-4940-ac93-266c327a40cb",
+        "account_number": "0123456789",
+        "account_type": "Credit",
+        "balance": 76337,
+        "credit_card_status": "Expired",
+        "credit_card_limit": 36484,
+        "created_at": "2023-08-31T23:25:04.347Z",
+        "updated_at": "2023-08-31T06:37:20.070Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f7b939d4-bae3-4df1-a577-338251332ab0",
+        "account_number": "5432109876",
+        "account_type": "Loan",
+        "balance": 48909,
+        "credit_card_status": "Lost",
+        "credit_card_limit": 16639,
+        "created_at": "2023-08-31T14:31:28.698Z",
+        "updated_at": "2023-08-31T19:47:28.114Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "transaction": [
+      {
+        "id": "d54867ec-1605-46ba-b7f7-7688253e34a9",
+        "transaction_type": "Purchase",
+        "transaction_amount": 56552,
+        "transaction_date": "2023-08-31T13:44:18.119Z",
+        "transaction_status": "Completed",
+        "transaction_description": "Grocery shopping",
+        "created_at": "2023-08-31T06:26:17.282Z",
+        "updated_at": "2023-08-31T15:21:20.381Z",
+        "customer_id": "8b3da3ef-5260-48ac-9ea7-6f3cc9df9d0e"
+      },
+      {
+        "id": "b71e98c3-46e2-4e36-9c2c-2b3e71330778",
+        "transaction_type": "Transfer",
+        "transaction_amount": 13099,
+        "transaction_date": "2023-08-31T08:05:25.328Z",
+        "transaction_status": "Pending",
+        "transaction_description": "Salary transfer",
+        "created_at": "2023-09-01T03:04:33.758Z",
+        "updated_at": "2023-08-31T12:55:08.244Z",
+        "customer_id": "8b3da3ef-5260-48ac-9ea7-6f3cc9df9d0e"
+      },
+      {
+        "id": "e90ad8f7-17e1-4930-846c-8eb34555b39d",
+        "transaction_type": "Withdrawal",
+        "transaction_amount": 50052,
+        "transaction_date": "2023-08-31T17:59:58.344Z",
+        "transaction_status": "Failed",
+        "transaction_description": "Cash withdrawal",
+        "created_at": "2023-09-01T00:04:18.086Z",
+        "updated_at": "2023-08-31T14:30:40.723Z",
+        "customer_id": "8b3da3ef-5260-48ac-9ea7-6f3cc9df9d0e"
+      },
+      {
+        "id": "5ca97b0b-5206-4a7b-958a-b0a5635287ba",
+        "transaction_type": "Deposit",
+        "transaction_amount": 38765,
+        "transaction_date": "2023-08-31T06:52:01.870Z",
+        "transaction_status": "Cancelled",
+        "transaction_description": "Deposit to savings",
+        "created_at": "2023-08-31T11:12:03.069Z",
+        "updated_at": "2023-08-31T06:40:35.896Z",
+        "customer_id": "f7b939d4-bae3-4df1-a577-338251332ab0"
+      },
+      {
+        "id": "bb167765-50f3-45b0-aa78-58977d5501fc",
+        "transaction_type": "Payment",
+        "transaction_amount": 84648,
+        "transaction_date": "2023-08-31T21:27:01.067Z",
+        "transaction_status": "Refunded",
+        "transaction_description": "Utility bill payment",
+        "created_at": "2023-08-31T13:38:22.499Z",
+        "updated_at": "2023-08-31T07:30:14.090Z",
+        "customer_id": "8b3da3ef-5260-48ac-9ea7-6f3cc9df9d0e"
+      }
+    ],
+    "bill": [
+      {
+        "id": "4d303719-c5d1-4976-81fd-c8305b44ba90",
+        "bill_type": "Electricity",
+        "bill_amount": 51556,
+        "due_date": "2023-08-31T10:43:11.524Z",
+        "payment_date": "2023-08-31T19:11:16.865Z",
+        "status": "Paid",
+        "created_at": "2023-08-31T16:11:09.581Z",
+        "updated_at": "2023-09-01T00:26:20.958Z",
+        "customer_id": "f7b939d4-bae3-4df1-a577-338251332ab0"
+      },
+      {
+        "id": "fa414ea2-0b9c-4683-a1e5-6303cc9cd41f",
+        "bill_type": "Water",
+        "bill_amount": 21062,
+        "due_date": "2023-09-01T04:00:40.544Z",
+        "payment_date": "2023-08-31T14:56:59.218Z",
+        "status": "Unpaid",
+        "created_at": "2023-08-31T22:25:22.707Z",
+        "updated_at": "2023-08-31T23:10:07.181Z",
+        "customer_id": "7ca61988-16c5-4033-8271-8c1f18771ab5"
+      },
+      {
+        "id": "9be27aaa-e483-4bcb-bf71-6a331cbc401a",
+        "bill_type": "Internet",
+        "bill_amount": 55869,
+        "due_date": "2023-08-31T22:32:14.955Z",
+        "payment_date": "2023-08-31T07:07:46.304Z",
+        "status": "Overdue",
+        "created_at": "2023-08-31T07:23:48.668Z",
+        "updated_at": "2023-08-31T05:54:23.329Z",
+        "customer_id": "c0c2abe5-b744-42d3-bc23-3d677145e0d7"
+      },
+      {
+        "id": "ff8e8c57-e7d3-4627-b71b-58272ca0ac06",
+        "bill_type": "Phone",
+        "bill_amount": 55000,
+        "due_date": "2023-09-01T03:21:07.186Z",
+        "payment_date": "2023-08-31T05:09:36.578Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-31T19:22:07.006Z",
+        "updated_at": "2023-08-31T16:50:54.009Z",
+        "customer_id": "7ca61988-16c5-4033-8271-8c1f18771ab5"
+      },
+      {
+        "id": "989ff52e-c9f1-4b9c-8c3f-7e454ec61e8b",
+        "bill_type": "Gas",
+        "bill_amount": 38631,
+        "due_date": "2023-08-31T19:58:56.814Z",
+        "payment_date": "2023-08-31T08:15:47.551Z",
+        "status": "Pending",
+        "created_at": "2023-09-01T01:09:31.984Z",
+        "updated_at": "2023-08-31T11:22:40.478Z",
+        "customer_id": "7ca61988-16c5-4033-8271-8c1f18771ab5"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "1f7a3e37-1955-44d3-8ed1-b099057f9ec5",
+        "email": "Walton_Franey59@gmail.com",
+        "firstName": "Shakira",
+        "lastName": "Homenick",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/46957006",
+        "tenantId": null
+      },
+      {
+        "reference": "dc42b475-0539-4259-9b83-e7b48f94278a",
+        "email": "Brycen.Bayer50@hotmail.com",
+        "firstName": "Lourdes",
+        "lastName": "Buckridge",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11130667",
+        "tenantId": null
+      },
+      {
+        "reference": "0d727f13-317c-446c-9a28-37ecc14791ad",
+        "email": "Rosie81@hotmail.com",
+        "firstName": "Flossie",
+        "lastName": "Weimann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/143.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "df2c474c-24a9-47be-8ef2-9fad38c254ca",
+        "email": "Sabryna_Kovacek-OKeefe85@hotmail.com",
+        "firstName": "Katlyn",
+        "lastName": "Bode",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/92803353",
+        "tenantId": null
+      },
+      {
+        "reference": "ae7f72a1-bfbe-4f41-be3f-5eab3e7da2ff",
+        "email": "Elisabeth10@yahoo.com",
+        "firstName": "Agustina",
+        "lastName": "Jacobson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/41822715",
+        "tenantId": null
+      }
+    ]
+  }
+]
